@@ -34,9 +34,13 @@ def details(request, symbol):
     return render_to_response('company/details.html', { 'company': company }, context_instance=RequestContext(request))
 
 def stats(request, symbol, days):
+    callback   = request.GET.get('callback', False)
     company = Company.objects.get(symbol=symbol)
     response_data = company.stats(days)
-    return HttpResponse(json.dumps(response_data), mimetype="application/javascript")
+    response_str = json.dumps(response_data);
+    if callback:
+        response_str = '%s(%s)' % (callback, response_str)
+    return HttpResponse(response_str, mimetype="application/javascript")
 
 def ohlc(request, symbol, days):
     callback   = request.GET.get('callback', False)
