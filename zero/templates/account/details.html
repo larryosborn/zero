@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load number_extras %}
+{% block content %}
+<h3 class="section-title">Assets</h3>
+<table class="styled">
+    <tr>
+        <th>Company</th>
+        <th class="number">Qty</th>
+        <th class="number">Value</th>
+    </tr>
+    {% for i in assets %}
+        <tr class="{% cycle 'odd' 'even' %}">
+            <td>{{ i.company.name }} ({{ i.company.symbol }})</td>
+            <td class="number">{{ i.quantity|intcomma }}</td>
+            <td class="number">${{ i.value|intcomma }}</td>
+        </tr>
+    {% endfor %}
+</table>
+<h3 class="section-title">Transactions</h3>
+<table class="styled">
+    <tr>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Company</th>
+        <th class="number">Qty</th>
+        <th class="number">Price</th>
+        <th class="number">Original</th>
+        <th class="number">Current</th>
+    </tr>
+    {% for i in transactions %}
+        <tr class="{% cycle 'odd' 'even' %}">
+            <td>{{ i.date|date:"Y-m-d" }}</td>
+            <td>{{ i.category }}</td>
+            <td>{{ i.company.name }} ({{ i.company.symbol }})</td>
+            <td class="number">{{ i.quantity|intcomma }}</td>
+            <td class="number">${{ i.price|intcomma }}</td>
+            <td class="number">${{ i.value|intcomma }}</td>
+            <td class="number">${{ i.current_value|intcomma }} {{ i.current_value|number_class }}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock content %}

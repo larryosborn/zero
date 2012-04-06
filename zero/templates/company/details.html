@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block head %}
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}jquery.sparkline.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highcharts/js/highcharts.src.js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highstock/js/highstock.src.js"></script>
+{% endblock head %}
+{% block content %}
+    <h1 class="section-title">{{ company.name }}</h1>
+    {{ company.location }}
+    {{ company.sector }}
+    <strong>{{ company.symbol }}:</strong>
+    {{ company.latest_price }}<br/>
+    <a href="{{ company.google_url }}">Google Finance</a>
+    <div id="stock-chart"></div>
+    <div id="tweet-chart"></div>
+
+<script type="text/javascript">
+    $.ajax({
+        url: '/company/ohlc/{{ company.symbol }}/99999?callback=?',
+        dataType: 'json',
+        success: function(data) {
+            for (var i = 0, il = data.length; i < il; i++) {
+                data[i][0] = data[i][0] * 1000;
+            }
+            window.chart = new Highcharts.StockChart({
+                chart : { renderTo : 'stock-chart' },
+                rangeSelector : { selected : 1 },
+                series : [{
+                    name : '{{ company.symbol }}',
+                    data : data,
+                    tooltip: { valueDecimals: 2 }
+                }]
+            });
+        }
+    });
+
+
+    $.ajax({ 
+        url: 'http://otter.topsy.com/searchhistogram.js?q=${{ company.symbol }}&period=30&callback=?',
+        dataType: 'json',
+        success: function(data) {
+            var cat_map = {};
+            var points = $.extend([],data.response.histogram);
+            var oneday = 60 * 60 * 24 * 1000;
+            var current = new Date().getTime();
+            console.log('current: ' + (new Date()));
+            var categories = []
+            points.reverse();
+            for (var i = 0, il = points.length; i < il; i++) {
+                var date = new Date(current - (oneday * i));
+                var str = (date.getMonth() + 1) + '/' + date.getDate();
+                cat_map[str] = date;
+                categories.push(str);
+            }
+            categories.reverse();
+            var chart = new Highcharts.Chart({
+                chart: {
+                    renderTo: 'tweet-chart',
+                    type: 'line',
+                    marginRight: 130,
+                    marginBottom: 25
+                },
+                xAxis: {
+                    categories: categories
+                },
+                yAxis: {
+                    title: { text: 'Mentions' },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                title: { 
+                    text: 'Mentions for ${{ company.symbol }}'
+                },
+                tooltip: {
+                    formatter: function() { return '<b>'+ this.series.name +'</b><br/>'+ this.x +': '+ this.y +' Mentions'; }
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
+                },
+                plotOptions: {
+                    series: {
+                        cursor: 'pointer',
+                        point: {
+                            events: {
+                                click: function() {
+                                    var q = this.series.name;
+                                    var date = cat_map[this.category];
+                                    console.log(date);
+                                    var ts = Math.round(date/1000) - (60*60*24);
+                                    var url = 'http://topsy.com/s?q=' + encodeURIComponent(q) + '&mintime=' + ts;
+                                    window.open(url,'_blank');
+                                    return;
+
+                                    
+                                    hs.htmlExpand(null, {
+                                        pageOrigin: { x: this.pageX, y: this.pageY },
+                                        headingText: this.series.name,
+                                        maincontentText: Highcharts.dateFormat('%A, %b %e, %Y', this.x) +':<br/> '+ this.y +' visits',
+                                        width: 200
+                                    });
+                                }
+                            }
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                series: [{
+                    name: '${{ company.symbol }}',
+                    data: points
+                }]
+            });
+
+        }
+    });
+
+    
+</script>
+{% endblock %}

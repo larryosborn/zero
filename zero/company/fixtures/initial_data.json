@@ -1,0 +1,4002 @@
+[
+    {
+        "pk": "MMM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "3M Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ACE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "ACE Limited", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ABT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Abbott Laboratories", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ANF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Abercrombie & Fitch Company A", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ACN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Accenture", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ADBE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Adobe Systems Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "AMD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Advanced Micro Devices", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AES", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AES Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AET", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Aetna Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AFL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AFLAC Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "A", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Agilent Technologies Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GAS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AGL Resources Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "APD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Air Products & Chemicals Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ARG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Airgas Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AKAM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Akamai Technologies Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "AA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Alcoa Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ATI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Allegheny Technologies Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AGN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Allergan Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ALL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Allstate Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ALTR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Altera Corp", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "MO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Altria Group Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AMZN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Amazon.com Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "AEE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ameren Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AEP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "American Electric Power", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AXP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "American Express Co", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AIG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "American Intl Group Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AMT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "American Tower Corp A", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AMP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ameriprise Financial", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ABC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AmerisourceBergen Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AMGN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Amgen Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "APH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Amphenol Corp A", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "APC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Anadarko Petroleum Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ADI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Analog Devices Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AON", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Aon Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "APA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Apache Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AIV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Apartment Investment & Mgmt", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "APOL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Apollo Group Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "AAPL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Apple Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "AMAT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Applied Materials Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ADM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Archer-Daniels-Midland Co", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AIZ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Assurant Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "T", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AT&T Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ADSK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Autodesk Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ADP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Automatic Data Processing", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "AN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AutoNation Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AZO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AutoZone Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AVB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "AvalonBay Communities", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AVY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Avery Dennison Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "AVP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Avon Products", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BHI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Baker Hughes Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BLL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ball Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BAC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Bank of America Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "The Bank of New York Mellon Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BCR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Bard (C.R.) Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BAX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Baxter International Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BBT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "BB&T Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BEAM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Beam Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BDX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Becton Dickinson", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BBBY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Bed Bath & Beyond", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "BMS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Bemis Company", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BRK.B", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Berkshire Hathaway", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BBY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Best Buy Co. Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BIG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Big Lots Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BIIB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "BIOGEN IDEC Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "BLK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "BlackRock", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HRB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Block H&R", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "BMC Software", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "BA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Boeing Company", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BWA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "BorgWarner", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BXP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Boston Properties", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BSX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Boston Scientific", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BMY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Bristol-Myers Squibb", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BRCM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Broadcom Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CHRW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "C. H. Robinson Worldwide", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CA", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CVC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cablevision Systems Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cabot Oil & Gas", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CAM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cameron International Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CPB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Campbell Soup", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Capital One Financial", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CAH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cardinal Health Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CFN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Carefusion", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KMX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Carmax Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CCL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Carnival Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CAT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Caterpillar Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CBG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CBRE Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CBS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CBS Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CELG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Celgene Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CNP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CenterPoint Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CTL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CenturyTel Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CERN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cerner", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CF Industries Holdings Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SCHW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Charles Schwab", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CHK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Chesapeake Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CVX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Chevron Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Chubb Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CIGNA Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CINF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cincinnati Financial", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CTAS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cintas Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CSCO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cisco Systems", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "C", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Citigroup Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CTXS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Citrix Systems", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CLF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cliffs Natural Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CLX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Clorox Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CME", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CME Group Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CMS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CMS Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Coach Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Coca Cola Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CCE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Coca-Cola Enterprises", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CTSH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cognizant Technology Solutions", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Colgate-Palmolive", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CMCSA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Comcast Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CMA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Comerica Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CSC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Computer Sciences Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CAG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "ConAgra Foods Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "ConocoPhillips", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CNX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CONSOL Energy Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ED", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Consolidated Edison", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "STZ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Constellation Brands", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CEG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Constellation Energy Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GLW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Corning Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COST", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Costco Co.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "CVH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Coventry Health Care Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Covidien plc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CSX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CSX Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CMI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cummins Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CVS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "CVS Caremark Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DHI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "D. R. Horton", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DHR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Danaher Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DRI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Darden Restaurants", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DVA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "DaVita Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dean Foods", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Deere & Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DELL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dell Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "DNR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Denbury Resources Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "XRAY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dentsply International", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "DVN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Devon Energy Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "DeVry", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Diamond Offshore Drilling", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DTV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "DirecTV", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "DFS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Discover Financial Services", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DISCA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Discovery Communications", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "DLTR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dollar Tree", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "D", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dominion Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RRD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Donnelley (R.R.) & Sons", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "DOV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dover Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DOW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dow Chemical", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DPS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dr Pepper Snapple Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DTE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "DTE Energy Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Du Pont (E.I.)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DUK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Duke Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DNB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Dun & Bradstreet", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ETFC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "E-Trade", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "EMN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Eastman Chemical", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ETN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Eaton Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EBAY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "eBay Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ECL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ecolab Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EIX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Edison Int'l", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Edwards Lifesciences", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "El Paso Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Electronic Arts", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "EMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "EMC Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EMR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Emerson Electric", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ETR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Entergy Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EOG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "EOG Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EQT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "EQT Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EFX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Equifax Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EQR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Equity Residential", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Estee Lauder Cos.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EXC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Exelon Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "EXPE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Expedia Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "EXPD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Expeditors Int'l", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ESRX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Express Scripts", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "XOM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Exxon Mobil Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FFIV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "F5 Networks", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "FDO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Family Dollar Stores", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FAST", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Fastenal Co", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "FII", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Federated Investors Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FDX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "FedEx Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FIS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Fidelity National Information Services", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FITB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Fifth Third Bancorp", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "FHN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "First Horizon National", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FSLR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "First Solar Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "FE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "FirstEnergy Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FISV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Fiserv Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "FLIR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "FLIR Systems", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "FLS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Flowserve Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FLR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Fluor Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "FMC Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FTI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "FMC Technologies Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "F", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ford Motor", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FRX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Forest Laboratories", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BEN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Franklin Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FCX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Freeport-McMoran Cp & Gld", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "FTR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Frontier Communications", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "GME", 
+        "model": "company.company", 
+        "fields": {
+            "name": "GameStop Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GCI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Gannett Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GPS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Gap (The)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "General Dynamics", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "General Electric", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GIS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "General Mills", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GPC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Genuine Parts", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GNW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Genworth Financial Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GILD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Gilead Sciences", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "GS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Goldman Sachs Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Goodrich Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Goodyear Tire & Rubber", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "GOOG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Google Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "GWW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Grainger (W.W.) Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HAL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Halliburton Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HOG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Harley-Davidson", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HAR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Harman Int'l Industries", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HRS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Harris Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HIG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hartford Financial Svc.Gp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HAS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hasbro Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "HCP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "HCP Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HCN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Health Care REIT", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HNZ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Heinz (H.J.)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Helmerich & Payne", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HES", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hess Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HPQ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hewlett-Packard", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Home Depot", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HON", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Honeywell Int'l Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HRL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hormel Foods Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HSP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hospira Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HST", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Host Hotels & Resorts", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HCBK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Hudson City Bancorp", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "HUM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Humana Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HBAN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Huntington Bancshares", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ITW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Illinois Tool Works", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TEG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Integrys Energy Group Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "INTC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Intel Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ICE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "IntercontinentalExchange Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "IBM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "International Bus. Machines", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "IFF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "International Flav/Frag", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "IGT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "International Game Technology", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "IP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "International Paper", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "IPG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Interpublic Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "INTU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Intuit Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "ISRG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Intuitive Surgical Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "IVZ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Invesco Ltd.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "IRM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Iron Mountain Incorporated", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "XYL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Xylem Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JBL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Jabil Circuit", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JEC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Jacobs Engineering Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CBE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Cooper Industries", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JDSU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "JDS Uniphase Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "JNJ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Johnson & Johnson", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JCI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Johnson Controls", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JOY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Joy Global Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JPM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "JPMorgan Chase & Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JNPR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Juniper Networks", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KEY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "KeyCorp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KMB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Kimberly-Clark", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KIM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Kimco Realty", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KLAC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "KLA-Tencor Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "KSS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Kohl's Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KFT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Kraft Foods Inc-A", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "KR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Kroger Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LLL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "L-3 Communications Holdings", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Laboratory Corp. of America Holding", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Legg Mason", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LEG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Leggett & Platt", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LEN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lennar Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LUK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Leucadia National Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LXK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lexmark Int'l Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LIFE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Life Technologies", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "LLY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lilly (Eli) & Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LTD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Limited Brands Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LNC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lincoln National", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LLTC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Linear Technology Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "LMT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lockheed Martin Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "L", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Loews Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lorillard Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LOW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Lowe's Cos.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LSI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "LSI Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MTB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "M&T Bank Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "M", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Macy's Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MRO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Marathon Oil Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MPC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Marathon Petroleum", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MAR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Marriott Int'l.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Marsh & McLennan", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MAS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Masco Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ANR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Alpha Natural Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Mastercard Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MAT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Mattel Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "MKC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "McCormick & Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MCD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "McDonald's Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MHP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "McGraw-Hill", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MCK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "McKesson Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MJN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Mead Johnson", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MWV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "MeadWestvaco Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MDT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Medtronic Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MRK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Merck & Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MET", 
+        "model": "company.company", 
+        "fields": {
+            "name": "MetLife Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PCS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "MetroPCS Communications Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MCHP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Microchip Technology", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "MU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Micron Technology", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "MSFT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Microsoft Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "MOLX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Molex Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "TAP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Molson Coors Brewing Company", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MON", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Monsanto Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MCO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Moody's Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Morgan Stanley", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MOS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "The Mosaic Company", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MMI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Motorola Mobility Holdings Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MSI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Motorola Solutions Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MUR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Murphy Oil", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MYL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Mylan Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NBR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Nabors Industries Ltd.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NDAQ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NASDAQ OMX Group", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NOV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "National Oilwell Varco Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NTAP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NetApp", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NFLX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NetFlix Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NFX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Newfield Exploration Co", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NEM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Newmont Mining Corp. (Hldg. Co.)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NWSA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "News Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NEE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NextEra Energy Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NKE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NIKE Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NiSource Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Noble Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NBL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Noble Energy Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JWN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Nordstrom", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NSC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Norfolk Southern Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NTRS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Northern Trust Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NOC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Northrop Grumman Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Northeast Utilities", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CMG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Chipotle Mexican Grill", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NVLS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Novellus Systems", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NRG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NRG Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NUE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Nucor Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "NVDA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Nvidia Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NYX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "NYSE Euronext", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ORLY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "O'Reilly Automotive", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "OXY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Occidental Petroleum", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "OMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Omnicom Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "OKE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "ONEOK", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ORCL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Oracle Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "OI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Owens-Illinois Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PCAR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PACCAR Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "IR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ingersoll-Rand PLC", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PLL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pall Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Parker-Hannifin", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PDCO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Patterson Companies", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "PAYX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Paychex Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "BTU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Peabody Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "JCP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Penney (J.C.)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PBCT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "People's United Bank", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "POM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pepco Holdings Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PEP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PepsiCo Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PKI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PerkinElmer", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PRGO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Perrigo", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "PFE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pfizer Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PCG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PG&E Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Philip Morris International", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PNW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pinnacle West Capital", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PXD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pioneer Natural Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PBI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pitney-Bowes", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PCL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Plum Creek Timber Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PNC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PNC Financial Services", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Polo Ralph Lauren Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PPG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PPG Industries", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PPL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "PPL Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Praxair Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PCP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Precision Castparts", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PCLN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Priceline.com Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "PFG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Principal Financial Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Procter & Gamble", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PGN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Progress Energy Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PGR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Progressive Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PLD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "ProLogis", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PRU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Prudential Financial", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PEG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Public Serv. Enterprise Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PSA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Public Storage", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PHM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Pulte Homes Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "QEP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "QEP Resources", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "PWR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Quanta Services Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "QCOM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "QUALCOMM Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "DGX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Quest Diagnostics", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RRC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Range Resources Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RTN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Raytheon Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RHT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Red Hat Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Regions Financial Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RSG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Republic Services Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RAI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Reynolds American Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "RHI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Robert Half International", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ROK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Rockwell Automation Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "COL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Rockwell Collins", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ROP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Roper Industries", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ROST", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ross Stores Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "RDC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Rowan Cos.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "R", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ryder System", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SWY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Safeway Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SAI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "SAIC", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "CRM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Salesforce.com", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SNDK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "SanDisk Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SLE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sara Lee Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SCG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "SCANA Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SLB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Schlumberger Ltd.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SNI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Scripps Networks Interactive Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SEE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sealed Air Corp.(New)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SHLD", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sears Holdings Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SRE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sempra Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SHW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sherwin-Williams", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SIAL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sigma-Aldrich", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SPG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Simon Property Group Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SLM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "SLM Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SJM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Smucker (J.M.)", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SNA", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Snap-On Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Southern Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "LUV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Southwest Airlines", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SWN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Southwestern Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Spectra Energy Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "S", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sprint Nextel Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "STJ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "St Jude Medical", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SWK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Stanley Black & Decker", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SPLS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Staples Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SBUX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Starbucks Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "HOT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Starwood Hotels & Resorts", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "STT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "State Street Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SRCL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Stericycle Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SYK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Stryker Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SUN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sunoco Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "STI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "SunTrust Banks", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SVU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Supervalu Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "SYMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Symantec Corp.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "SYY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Sysco Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TROW", 
+        "model": "company.company", 
+        "fields": {
+            "name": "T. Rowe Price Group", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "TGT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Target Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TEL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "TE Connectivity Ltd.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "TECO Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "THC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Tenet Healthcare Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TDC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Teradata Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TER", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Teradyne Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TSO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Tesoro Petroleum Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TXN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Texas Instruments", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "TXT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Textron Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "HSY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "The Hershey Company", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TRV", 
+        "model": "company.company", 
+        "fields": {
+            "name": "The Travelers Companies Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TMO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Thermo Fisher Scientific", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TIF", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Tiffany & Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TWX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Time Warner Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TWC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Time Warner Cable Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TIE", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Titanium Metals Corp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TJX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "TJX Companies Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TMK", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Torchmark Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TSS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Total System Services", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TSN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Tyson Foods", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TYC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Tyco International", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "USB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "U.S. Bancorp", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "UNP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Union Pacific", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "UNH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "United Health Group Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "UPS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "United Parcel Service", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "X", 
+        "model": "company.company", 
+        "fields": {
+            "name": "United States Steel Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "UTX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "United Technologies", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "UNM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Unum Group", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "URBN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Urban Outfitters", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "VFC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "V.F. Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VLO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Valero Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VAR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Varian Medical Systems", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VTR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Ventas Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VRSN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Verisign Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "VZ", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Verizon Communications", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VIAB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Viacom Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "V", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Visa Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VNO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Vornado Realty Trust", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "VMC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Vulcan Materials", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WMT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Wal-Mart Stores", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WAG", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Walgreen Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "DIS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Walt Disney Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WPO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Washington Post Co B", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Waste Management Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WAT", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Waters Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WPI", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Watson Pharmaceuticals", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WLP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "WellPoint Inc.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WFC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Wells Fargo", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WDC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Western Digital", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WU", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Western Union Co", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WY", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Weyerhaeuser Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WHR", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Whirlpool Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WFM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Whole Foods Market", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "WMB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Williams Cos.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WIN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Windstream Corporation", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "WEC", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Wisconsin Energy Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WPX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "WPX Energy", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WYN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Wyndham Worldwide", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "WYNN", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Wynn Resorts Ltd", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "XEL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Xcel Energy Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "XRX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Xerox Corp.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "XLNX", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Xilinx Inc", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "XL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "XL Capital", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "YHOO", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Yahoo Inc.", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "YUM", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Yum! Brands Inc", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ZMH", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Zimmer Holdings", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "ZION", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Zions Bancorp", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "K", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Kellogg Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "BFB", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Brown-Forman Corporation", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "TRIP", 
+        "model": "company.company", 
+        "fields": {
+            "name": "TripAdvisor", 
+            "exchange": "NASDAQ"
+        }
+    }, 
+    {
+        "pk": "NWL", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Newell Rubbermaid Co.", 
+            "exchange": "NYSE"
+        }
+    }, 
+    {
+        "pk": "MHS", 
+        "model": "company.company", 
+        "fields": {
+            "name": "Medco Health Solutions Inc.", 
+            "exchange": "NYSE"
+        }
+    }
+]

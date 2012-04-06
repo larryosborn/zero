@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% load number_extras %}
+{% block head %}
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}jquery.sparkline.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highstock/js/highstock.src.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highcharts/js/highcharts.src.js"></script>
+{% endblock head %}
+{% block content %}
+<select id="days">
+    <option value="7">7 Days</option>
+    <option value="14">14 Days</option>
+    <option value="30" selected="selected">30 Days</option>
+    <option value="60">60 Days</option>
+    <option value="90">90 Days</option>
+</select>
+<button id="go">Go</button>
+<table class="styled">
+    <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+        <th>Past 30 Days</th>
+        <th class="number">High</th>
+        <th class="number">Low</th>
+        <th class="number">Price</th>
+        <th class="number">Diff</th>
+    </tr>
+    {% for i in list %}
+        <tr data-symbol="{{ i.symbol }}" class="{% cycle 'odd' 'even' %}">
+            <td><a href="{% url details-view i.symbol %}">{{ i.symbol }}</a></td>
+            <td>
+                {{ i.name }}<br/>
+                {{ i.sector }}
+            </td>
+            <td class="sparkline-col"></td>
+            <td class="number high-col"></td>
+            <td class="number low-col"></td>
+            <td class="number latest-col"></td>
+            <td class="number diff-col"></td>
+        </tr>
+    {% endfor %}
+</table>
+<script type="text/javascript">
+$('#days').change(function() {
+    load_stats({ days: $(this).val() });
+});
+$('#go').click(function() {
+    load_stats({ days: $('#days').val() });
+});
+function number_class(num) {
+    if (num > 0) {
+        return 'pos';
+    }
+    else if (num < 0) {
+        return 'neg';
+    }
+    else {
+        return 'neu';
+    }
+}
+function load_stats(options) {
+    $('tr[data-symbol]').each(function(idx, i) {
+        var $this = $(i);
+        var spcol = $this.find('.sparkline-col');
+        var symbol = $this.data('symbol');
+        var days = options.days;
+        $.ajax({
+            url: '/company/stats/' + symbol + '/365',
+            responseType: 'json',
+            success: function(data) {
+                var values_str = data.closed.slice(-30).join(',');
+                var span = $('<div/>', { 'class': 'sparkline', values: values_str }).appendTo(spcol);
+                span.sparkline('html', {
+                    width: '100%',
+                    height: '50px',
+                    lineColor: '#999',
+                    fillColor: '#DDD',
+                    spotColor: '#000',
+                    minSpotColor: '#C00',
+                    maxSpotColor: '#0C0'
+                });
+                var values_str = data.closed.join(',');
+                var full = $('<div/>', { 'class': 'sparkline', values: values_str }).appendTo(spcol);
+                full.sparkline('html', {
+                    width: '100%',
+                    height: '20px',
+                    lineColor: '#99C',
+                    fillColor: '#EEF',
+                    spotColor: '#000',
+                    minSpotColor: '#C00',
+                    maxSpotColor: '#0C0'
+                });
+
+                var high            = data.high;
+                var low             = data.low;
+                var latest          = data.closed[data.closed.length - 1];
+                var high_delta      = high - latest;
+                var low_delta       = latest - low;
+                var high_delta_pct  = (high_delta / latest) * 100;
+                var low_delta_pct   = (low_delta / latest) * 100;
+                var oldest          = data.closed[0];
+                var diff            = latest - oldest;
+                var diff_pct        = (diff / latest) * 100;
+
+                $this.data('stats', data);
+                $this.find('.high-col').html('$' + high.toFixed(2) + '<br/><span class="' + number_class(high_delta) + '">$' + high_delta.toFixed(2) + '</span> <span class="' + number_class(high_delta_pct) + '">' + high_delta_pct.toFixed(1) + '%</span>');
+                $this.find('.low-col').html('$' + low.toFixed(2) + '<br/><span class="' + number_class(low_delta) + '">$' + low_delta.toFixed(2) + '</span> <span class="' + number_class(low_delta_pct) + '">' + low_delta_pct.toFixed(1) + '%</span>');
+                $this.find('.latest-col').html('$' + latest.toFixed(2));
+                $this.find('.diff-col').html('<span class="' + number_class(diff) + '">$' + diff.toFixed(2) + '</span> <span class="' + number_class(diff_pct) + '">('+ diff_pct.toFixed(1) + '%)</span>');
+            }
+        });
+        /*
+        $.ajax({
+            url: '/company/stats/' + symbol + '/' + days,
+            responseType: 'json',
+            success: function(data) {
+                var values_str = data.closed.join(',');
+                var span = $('<div/>', { 'class': 'sparkline', values: values_str }).appendTo(spcol);
+                span.sparkline('html', {
+                    width: '100%',
+                    height: '50px',
+                    lineColor: '#999',
+                    fillColor: '#DDD',
+                    spotColor: '#000',
+                    minSpotColor: '#C00',
+                    maxSpotColor: '#0C0'
+                });
+                var high = data.high;
+                var low = data.low;
+                var latest = data.closed[data.closed.length - 1];
+                var high_delta = high - latest;
+                var low_delta = latest - low;
+                var high_delta_pct = (high_delta / latest) * 100;
+                var low_delta_pct = (low_delta / latest) * 100;
+                $this.data('stats', data);
+                $this.find('.high-col').html('$' + high.toFixed(2) + '<br/>$' + high_delta.toFixed(2) + ' ' + high_delta_pct.toFixed(1) + '%');
+                $this.find('.low-col').html('$' + low.toFixed(2) + '<br/>$' + low_delta.toFixed(2) + ' ' + low_delta_pct.toFixed(1) + '%');
+                $this.find('.latest-col').html('$' + latest.toFixed(2));
+                $.ajax({
+                    url: '/company/stats/' + symbol + '/365',
+                    responseType: 'json',
+                    success: function(rd) {
+                        var values_str = rd.closed.join(',');
+                        var span = $('<div/>', { 'class': 'sparkline', values: values_str }).appendTo(spcol);
+                        span.sparkline('html', {
+                            width: '100%',
+                            height: '20px',
+                            lineColor: '#99C',
+                            fillColor: '#EEF',
+                            spotColor: '#000',
+                            minSpotColor: '#C00',
+                            maxSpotColor: '#0C0'
+                        });
+                    }
+                });
+            }
+        });
+        */
+    });
+}
+</script>
+{% endblock content %}
