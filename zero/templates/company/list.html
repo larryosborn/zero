@@ -1,10 +1,6 @@
 {% extends "base.html" %}
 {% load number_extras %}
-{% block head %}
-    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}jquery.sparkline.js"></script>
-    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highstock/js/highstock.src.js"></script>
-    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highcharts/js/highcharts.src.js"></script>
-{% endblock head %}
+{% block head %}{% endblock head %}
 {% block content %}
 <select id="days">
     <option value="7">7 Days</option>
@@ -67,6 +63,7 @@ function load_stats(options) {
             url: '/company/stats/' + symbol + '/365',
             responseType: 'json',
             success: function(data) {
+                console.log('test');
                 var values_str = data.closed.slice(-30).join(',');
                 var span = $('<div/>', { 'class': 'sparkline', values: values_str }).appendTo(spcol);
                 span.sparkline('html', {
