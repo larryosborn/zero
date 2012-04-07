@@ -5,13 +5,15 @@
 <h3 class="section-title">Assets</h3>
 <table class="styled">
     <tr>
+        <th>Symbol</th>
         <th>Company</th>
         <th class="number">Qty</th>
         <th class="number">Value</th>
     </tr>
     {% for i in assets %}
         <tr class="{% cycle 'odd' 'even' %}">
-            <td>{{ i.company.name }} ({{ i.company.symbol }})</td>
+            <td><a href="{% url company-details i.company.symbol %}">{{ i.company.symbol }}</a></td>
+            <td>{{ i.company.name }}</td>
             <td class="number">{{ i.quantity|intcomma }}</td>
             <td class="number">${{ i.value|intcomma }}</td>
         </tr>
@@ -22,6 +24,7 @@
     <tr>
         <th>Date</th>
         <th>Category</th>
+        <th>Symbol</th>
         <th>Company</th>
         <th class="number">Qty</th>
         <th class="number">Price</th>
@@ -32,7 +35,8 @@
         <tr class="{% cycle 'odd' 'even' %}">
             <td>{{ i.date|date:"Y-m-d" }}</td>
             <td>{{ i.category }}</td>
-            <td>{{ i.company.name }} ({{ i.company.symbol }})</td>
+            <td><a href="{% url company-details i.company.symbol %}">{{ i.company.symbol }}</a></td>
+            <td>{{ i.company.name }}</td>
             <td class="number">{{ i.quantity|intcomma }}</td>
             <td class="number">${{ i.price|intcomma }}</td>
             <td class="number">${{ i.value|intcomma }}</td>

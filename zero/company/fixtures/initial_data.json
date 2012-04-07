@@ -3,6 +3,8 @@
         "pk": "MMM", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "St Paul, Minnesota", 
             "name": "3M Co.", 
             "exchange": "NYSE"
         }
@@ -11,6 +13,8 @@
         "pk": "ACE", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Zurich, Switzerland", 
             "name": "ACE Limited", 
             "exchange": "NYSE"
         }
@@ -19,6 +23,8 @@
         "pk": "ABT", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "North Chicago, Illinois", 
             "name": "Abbott Laboratories", 
             "exchange": "NYSE"
         }
@@ -27,6 +33,8 @@
         "pk": "ANF", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New Albany, Ohio", 
             "name": "Abercrombie & Fitch Company A", 
             "exchange": "NYSE"
         }
@@ -35,6 +43,8 @@
         "pk": "ACN", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Dublin, Ireland", 
             "name": "Accenture", 
             "exchange": "NYSE"
         }
@@ -43,6 +53,8 @@
         "pk": "ADBE", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Jose, California", 
             "name": "Adobe Systems Inc", 
             "exchange": "NASDAQ"
         }
@@ -51,6 +63,8 @@
         "pk": "AMD", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Sunnyvale, California", 
             "name": "Advanced Micro Devices", 
             "exchange": "NYSE"
         }
@@ -59,6 +73,8 @@
         "pk": "AES", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Arlington, Virginia", 
             "name": "AES Corp", 
             "exchange": "NYSE"
         }
@@ -67,6 +83,8 @@
         "pk": "AET", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Hartford, Connecticut", 
             "name": "Aetna Inc", 
             "exchange": "NYSE"
         }
@@ -75,6 +93,8 @@
         "pk": "AFL", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Columbus, Georgia", 
             "name": "AFLAC Inc", 
             "exchange": "NYSE"
         }
@@ -83,6 +103,8 @@
         "pk": "A", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Santa Clara, California", 
             "name": "Agilent Technologies Inc", 
             "exchange": "NYSE"
         }
@@ -91,6 +113,8 @@
         "pk": "GAS", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Atlanta, Georgia", 
             "name": "AGL Resources Inc.", 
             "exchange": "NYSE"
         }
@@ -99,6 +123,8 @@
         "pk": "APD", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Allentown, Pennsylvania", 
             "name": "Air Products & Chemicals Inc", 
             "exchange": "NYSE"
         }
@@ -107,6 +133,8 @@
         "pk": "ARG", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Radnor Township, Pennsylvania", 
             "name": "Airgas Inc", 
             "exchange": "NYSE"
         }
@@ -115,6 +143,8 @@
         "pk": "AKAM", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Cambridge, Massachusetts", 
             "name": "Akamai Technologies Inc", 
             "exchange": "NASDAQ"
         }
@@ -123,6 +153,8 @@
         "pk": "AA", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "Alcoa Inc", 
             "exchange": "NYSE"
         }
@@ -131,6 +163,8 @@
         "pk": "ATI", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "Allegheny Technologies Inc", 
             "exchange": "NYSE"
         }
@@ -139,6 +173,8 @@
         "pk": "AGN", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Irvine, California", 
             "name": "Allergan Inc", 
             "exchange": "NYSE"
         }
@@ -147,6 +183,8 @@
         "pk": "ALL", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Northfield Township, Illinois", 
             "name": "Allstate Corp", 
             "exchange": "NYSE"
         }
@@ -155,6 +193,8 @@
         "pk": "ALTR", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Jose, California", 
             "name": "Altera Corp", 
             "exchange": "NASDAQ"
         }
@@ -163,6 +203,8 @@
         "pk": "MO", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Richmond, Virginia", 
             "name": "Altria Group Inc", 
             "exchange": "NYSE"
         }
@@ -171,6 +213,8 @@
         "pk": "AMZN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Seattle, Washington", 
             "name": "Amazon.com Inc", 
             "exchange": "NASDAQ"
         }
@@ -179,6 +223,8 @@
         "pk": "AEE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "St. Louis, Missouri", 
             "name": "Ameren Corp", 
             "exchange": "NYSE"
         }
@@ -187,6 +233,8 @@
         "pk": "AEP", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Columbus, Ohio", 
             "name": "American Electric Power", 
             "exchange": "NYSE"
         }
@@ -195,6 +243,8 @@
         "pk": "AXP", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "American Express Co", 
             "exchange": "NYSE"
         }
@@ -203,6 +253,8 @@
         "pk": "AIG", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "American Intl Group Inc", 
             "exchange": "NYSE"
         }
@@ -211,6 +263,8 @@
         "pk": "AMT", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Boston, Massachusetts", 
             "name": "American Tower Corp A", 
             "exchange": "NYSE"
         }
@@ -219,6 +273,8 @@
         "pk": "AMP", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Minneapolis, Minnesota", 
             "name": "Ameriprise Financial", 
             "exchange": "NYSE"
         }
@@ -227,6 +283,8 @@
         "pk": "ABC", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Chesterbrook, Pennsylvania", 
             "name": "AmerisourceBergen Corp", 
             "exchange": "NYSE"
         }
@@ -235,6 +293,8 @@
         "pk": "AMGN", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Thousand Oaks, California", 
             "name": "Amgen Inc", 
             "exchange": "NASDAQ"
         }
@@ -243,6 +303,8 @@
         "pk": "APH", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Wallingford, Connecticut", 
             "name": "Amphenol Corp A", 
             "exchange": "NYSE"
         }
@@ -251,6 +313,8 @@
         "pk": "APC", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "The Woodlands, Texas", 
             "name": "Anadarko Petroleum Corp", 
             "exchange": "NYSE"
         }
@@ -259,6 +323,8 @@
         "pk": "ADI", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Norwood, Massachusetts", 
             "name": "Analog Devices Inc", 
             "exchange": "NYSE"
         }
@@ -267,6 +333,8 @@
         "pk": "AON", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Chicago, Illinois", 
             "name": "Aon Corporation", 
             "exchange": "NYSE"
         }
@@ -275,6 +343,8 @@
         "pk": "APA", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Apache Corporation", 
             "exchange": "NYSE"
         }
@@ -283,6 +353,8 @@
         "pk": "AIV", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Denver, Colorado", 
             "name": "Apartment Investment & Mgmt", 
             "exchange": "NYSE"
         }
@@ -291,6 +363,8 @@
         "pk": "APOL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Phoenix, Arizona", 
             "name": "Apollo Group Inc", 
             "exchange": "NASDAQ"
         }
@@ -299,6 +373,8 @@
         "pk": "AAPL", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Cupertino, California", 
             "name": "Apple Inc.", 
             "exchange": "NASDAQ"
         }
@@ -307,6 +383,8 @@
         "pk": "AMAT", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Santa Clara, California", 
             "name": "Applied Materials Inc", 
             "exchange": "NASDAQ"
         }
@@ -315,6 +393,8 @@
         "pk": "ADM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Decatur, Illinois", 
             "name": "Archer-Daniels-Midland Co", 
             "exchange": "NYSE"
         }
@@ -323,6 +403,8 @@
         "pk": "AIZ", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Assurant Inc", 
             "exchange": "NYSE"
         }
@@ -331,6 +413,8 @@
         "pk": "T", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Dallas, Texas", 
             "name": "AT&T Inc", 
             "exchange": "NYSE"
         }
@@ -339,6 +423,8 @@
         "pk": "ADSK", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Rafael, California", 
             "name": "Autodesk Inc", 
             "exchange": "NASDAQ"
         }
@@ -347,6 +433,8 @@
         "pk": "ADP", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Roseland, New Jersey", 
             "name": "Automatic Data Processing", 
             "exchange": "NASDAQ"
         }
@@ -355,6 +443,8 @@
         "pk": "AN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Fort Lauderdale, Florida", 
             "name": "AutoNation Inc", 
             "exchange": "NYSE"
         }
@@ -363,6 +453,8 @@
         "pk": "AZO", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Memphis, Tennessee", 
             "name": "AutoZone Inc", 
             "exchange": "NYSE"
         }
@@ -371,6 +463,8 @@
         "pk": "AVB", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Arlington, Virginia[1]", 
             "name": "AvalonBay Communities", 
             "exchange": "NYSE"
         }
@@ -379,6 +473,8 @@
         "pk": "AVY", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Pasadena, California", 
             "name": "Avery Dennison Corp", 
             "exchange": "NYSE"
         }
@@ -387,6 +483,8 @@
         "pk": "AVP", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "New York, New York", 
             "name": "Avon Products", 
             "exchange": "NYSE"
         }
@@ -395,6 +493,8 @@
         "pk": "BHI", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Baker Hughes Inc", 
             "exchange": "NYSE"
         }
@@ -403,6 +503,8 @@
         "pk": "BLL", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Broomfield, Colorado", 
             "name": "Ball Corp", 
             "exchange": "NYSE"
         }
@@ -411,6 +513,8 @@
         "pk": "BAC", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Charlotte, North Carolina", 
             "name": "Bank of America Corp", 
             "exchange": "NYSE"
         }
@@ -419,6 +523,8 @@
         "pk": "BK", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "The Bank of New York Mellon Corp.", 
             "exchange": "NYSE"
         }
@@ -427,6 +533,8 @@
         "pk": "BCR", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Murray Hill, New Jersey", 
             "name": "Bard (C.R.) Inc.", 
             "exchange": "NYSE"
         }
@@ -435,6 +543,8 @@
         "pk": "BAX", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Deerfield, Illinois", 
             "name": "Baxter International Inc.", 
             "exchange": "NYSE"
         }
@@ -443,6 +553,8 @@
         "pk": "BBT", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Winston-Salem, North Carolina", 
             "name": "BB&T Corporation", 
             "exchange": "NYSE"
         }
@@ -451,6 +563,8 @@
         "pk": "BEAM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Deerfield, Illinois", 
             "name": "Beam Inc.", 
             "exchange": "NYSE"
         }
@@ -459,6 +573,8 @@
         "pk": "BDX", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Franklin Lakes, New Jersey", 
             "name": "Becton Dickinson", 
             "exchange": "NYSE"
         }
@@ -467,6 +583,8 @@
         "pk": "BBBY", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Union, New Jersey", 
             "name": "Bed Bath & Beyond", 
             "exchange": "NASDAQ"
         }
@@ -475,6 +593,8 @@
         "pk": "BMS", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Neenah, Wisconsin", 
             "name": "Bemis Company", 
             "exchange": "NYSE"
         }
@@ -483,6 +603,8 @@
         "pk": "BRK.B", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Omaha, Nebraska", 
             "name": "Berkshire Hathaway", 
             "exchange": "NYSE"
         }
@@ -491,6 +613,8 @@
         "pk": "BBY", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Richfield, Minnesota", 
             "name": "Best Buy Co. Inc.", 
             "exchange": "NYSE"
         }
@@ -499,6 +623,8 @@
         "pk": "BIG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Columbus, Ohio", 
             "name": "Big Lots Inc.", 
             "exchange": "NYSE"
         }
@@ -507,6 +633,8 @@
         "pk": "BIIB", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Weston, Massachusetts", 
             "name": "BIOGEN IDEC Inc.", 
             "exchange": "NASDAQ"
         }
@@ -515,6 +643,8 @@
         "pk": "BLK", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "BlackRock", 
             "exchange": "NYSE"
         }
@@ -523,6 +653,8 @@
         "pk": "HRB", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Kansas City, Missouri", 
             "name": "Block H&R", 
             "exchange": "NYSE"
         }
@@ -531,6 +663,8 @@
         "pk": "BMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Houston, Texas", 
             "name": "BMC Software", 
             "exchange": "NASDAQ"
         }
@@ -539,6 +673,8 @@
         "pk": "BA", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Chicago, Illinois", 
             "name": "Boeing Company", 
             "exchange": "NYSE"
         }
@@ -547,6 +683,8 @@
         "pk": "BWA", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Auburn Hills, Michigan", 
             "name": "BorgWarner", 
             "exchange": "NYSE"
         }
@@ -555,6 +693,8 @@
         "pk": "BXP", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Boston, Massachusetts", 
             "name": "Boston Properties", 
             "exchange": "NYSE"
         }
@@ -563,6 +703,8 @@
         "pk": "BSX", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Natick, Massachusetts", 
             "name": "Boston Scientific", 
             "exchange": "NYSE"
         }
@@ -571,6 +713,8 @@
         "pk": "BMY", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "New York, New York", 
             "name": "Bristol-Myers Squibb", 
             "exchange": "NYSE"
         }
@@ -579,6 +723,8 @@
         "pk": "BRCM", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Irvine, California", 
             "name": "Broadcom Corporation", 
             "exchange": "NASDAQ"
         }
@@ -587,6 +733,8 @@
         "pk": "CHRW", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Eden Prairie, Minnesota", 
             "name": "C. H. Robinson Worldwide", 
             "exchange": "NASDAQ"
         }
@@ -595,6 +743,8 @@
         "pk": "CA", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Islandia, New York", 
             "name": "CA", 
             "exchange": "NASDAQ"
         }
@@ -603,6 +753,8 @@
         "pk": "CVC", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Bethpage, New York", 
             "name": "Cablevision Systems Corp.", 
             "exchange": "NYSE"
         }
@@ -611,6 +763,8 @@
         "pk": "COG", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Cabot Oil & Gas", 
             "exchange": "NYSE"
         }
@@ -619,6 +773,8 @@
         "pk": "CAM", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Cameron International Corp.", 
             "exchange": "NYSE"
         }
@@ -627,6 +783,8 @@
         "pk": "CPB", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Camden, New Jersey", 
             "name": "Campbell Soup", 
             "exchange": "NYSE"
         }
@@ -635,6 +793,8 @@
         "pk": "COF", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Tysons Corner, Virginia", 
             "name": "Capital One Financial", 
             "exchange": "NYSE"
         }
@@ -643,6 +803,8 @@
         "pk": "CAH", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Dublin, Ohio", 
             "name": "Cardinal Health Inc.", 
             "exchange": "NYSE"
         }
@@ -651,6 +813,8 @@
         "pk": "CFN", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "San Diego, California[2]", 
             "name": "Carefusion", 
             "exchange": "NYSE"
         }
@@ -659,6 +823,8 @@
         "pk": "KMX", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Richmond, Virginia", 
             "name": "Carmax Inc", 
             "exchange": "NYSE"
         }
@@ -667,6 +833,8 @@
         "pk": "CCL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Miami, Florida", 
             "name": "Carnival Corp.", 
             "exchange": "NYSE"
         }
@@ -675,6 +843,8 @@
         "pk": "CAT", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Peoria, Illinois", 
             "name": "Caterpillar Inc.", 
             "exchange": "NYSE"
         }
@@ -683,6 +853,8 @@
         "pk": "CBG", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Los Angeles, California", 
             "name": "CBRE Group", 
             "exchange": "NYSE"
         }
@@ -691,6 +863,8 @@
         "pk": "CBS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "CBS Corp.", 
             "exchange": "NYSE"
         }
@@ -699,6 +873,8 @@
         "pk": "CELG", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Summit, New Jersey", 
             "name": "Celgene Corp.", 
             "exchange": "NASDAQ"
         }
@@ -707,6 +883,8 @@
         "pk": "CNP", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Houston, Texas", 
             "name": "CenterPoint Energy", 
             "exchange": "NYSE"
         }
@@ -715,6 +893,8 @@
         "pk": "CTL", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Monroe, Louisiana", 
             "name": "CenturyTel Inc", 
             "exchange": "NYSE"
         }
@@ -723,6 +903,8 @@
         "pk": "CERN", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "North Kansas City, Missouri", 
             "name": "Cerner", 
             "exchange": "NASDAQ"
         }
@@ -731,6 +913,8 @@
         "pk": "CF", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Deerfield, Illinois", 
             "name": "CF Industries Holdings Inc", 
             "exchange": "NYSE"
         }
@@ -739,6 +923,8 @@
         "pk": "SCHW", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "San Francisco, California", 
             "name": "Charles Schwab", 
             "exchange": "NYSE"
         }
@@ -747,6 +933,8 @@
         "pk": "CHK", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Oklahoma City, Oklahoma", 
             "name": "Chesapeake Energy", 
             "exchange": "NYSE"
         }
@@ -755,6 +943,8 @@
         "pk": "CVX", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "San Ramon, California", 
             "name": "Chevron Corp.", 
             "exchange": "NYSE"
         }
@@ -763,6 +953,8 @@
         "pk": "CB", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Warren, New Jersey", 
             "name": "Chubb Corp.", 
             "exchange": "NYSE"
         }
@@ -771,6 +963,8 @@
         "pk": "CI", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Philadelphia, Pennsylvania", 
             "name": "CIGNA Corp.", 
             "exchange": "NYSE"
         }
@@ -779,6 +973,8 @@
         "pk": "CINF", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Fairfield, Ohio", 
             "name": "Cincinnati Financial", 
             "exchange": "NASDAQ"
         }
@@ -787,6 +983,8 @@
         "pk": "CTAS", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Mason, Ohio", 
             "name": "Cintas Corporation", 
             "exchange": "NASDAQ"
         }
@@ -795,6 +993,8 @@
         "pk": "CSCO", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Jose, California", 
             "name": "Cisco Systems", 
             "exchange": "NASDAQ"
         }
@@ -803,6 +1003,8 @@
         "pk": "C", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Citigroup Inc.", 
             "exchange": "NYSE"
         }
@@ -811,6 +1013,8 @@
         "pk": "CTXS", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Fort Lauderdale, Florida", 
             "name": "Citrix Systems", 
             "exchange": "NASDAQ"
         }
@@ -819,6 +1023,8 @@
         "pk": "CLF", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Cleveland, Ohio", 
             "name": "Cliffs Natural Resources", 
             "exchange": "NYSE"
         }
@@ -827,6 +1033,8 @@
         "pk": "CLX", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Oakland, California", 
             "name": "Clorox Co.", 
             "exchange": "NYSE"
         }
@@ -835,6 +1043,8 @@
         "pk": "CME", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Chicago, Illinois", 
             "name": "CME Group Inc.", 
             "exchange": "NASDAQ"
         }
@@ -843,6 +1053,8 @@
         "pk": "CMS", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Jackson, Michigan", 
             "name": "CMS Energy", 
             "exchange": "NYSE"
         }
@@ -851,6 +1063,8 @@
         "pk": "COH", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Coach Inc.", 
             "exchange": "NYSE"
         }
@@ -859,6 +1073,8 @@
         "pk": "KO", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Atlanta, Georgia", 
             "name": "Coca Cola Co.", 
             "exchange": "NYSE"
         }
@@ -867,6 +1083,8 @@
         "pk": "CCE", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Atlanta, Georgia", 
             "name": "Coca-Cola Enterprises", 
             "exchange": "NYSE"
         }
@@ -875,6 +1093,8 @@
         "pk": "CTSH", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Teaneck, New Jersey", 
             "name": "Cognizant Technology Solutions", 
             "exchange": "NASDAQ"
         }
@@ -883,6 +1103,8 @@
         "pk": "CL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "New York, New York", 
             "name": "Colgate-Palmolive", 
             "exchange": "NYSE"
         }
@@ -891,6 +1113,8 @@
         "pk": "CMCSA", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Philadelphia, Pennsylvania", 
             "name": "Comcast Corp.", 
             "exchange": "NASDAQ"
         }
@@ -899,6 +1123,8 @@
         "pk": "CMA", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Dallas, Texas", 
             "name": "Comerica Inc.", 
             "exchange": "NYSE"
         }
@@ -907,6 +1133,8 @@
         "pk": "CSC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Falls Church, Virginia", 
             "name": "Computer Sciences Corp.", 
             "exchange": "NYSE"
         }
@@ -915,6 +1143,8 @@
         "pk": "CAG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Omaha, Nebraska", 
             "name": "ConAgra Foods Inc.", 
             "exchange": "NYSE"
         }
@@ -923,6 +1153,8 @@
         "pk": "COP", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "ConocoPhillips", 
             "exchange": "NYSE"
         }
@@ -931,6 +1163,8 @@
         "pk": "CNX", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Cecil Township, Pennsylvania", 
             "name": "CONSOL Energy Inc.", 
             "exchange": "NYSE"
         }
@@ -939,6 +1173,8 @@
         "pk": "ED", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "New York, New York", 
             "name": "Consolidated Edison", 
             "exchange": "NYSE"
         }
@@ -947,6 +1183,8 @@
         "pk": "STZ", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Victor, New York", 
             "name": "Constellation Brands", 
             "exchange": "NYSE"
         }
@@ -955,6 +1193,8 @@
         "pk": "CEG", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Baltimore, Maryland", 
             "name": "Constellation Energy Group", 
             "exchange": "NYSE"
         }
@@ -963,6 +1203,8 @@
         "pk": "GLW", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Corning, New York", 
             "name": "Corning Inc.", 
             "exchange": "NYSE"
         }
@@ -971,6 +1213,8 @@
         "pk": "COST", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Issaquah, Washington", 
             "name": "Costco Co.", 
             "exchange": "NASDAQ"
         }
@@ -979,6 +1223,8 @@
         "pk": "CVH", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Bethesda, Maryland", 
             "name": "Coventry Health Care Inc.", 
             "exchange": "NYSE"
         }
@@ -987,6 +1233,8 @@
         "pk": "COV", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Dublin, Ireland", 
             "name": "Covidien plc", 
             "exchange": "NYSE"
         }
@@ -995,6 +1243,8 @@
         "pk": "CSX", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Jacksonville, Florida", 
             "name": "CSX Corp.", 
             "exchange": "NYSE"
         }
@@ -1003,6 +1253,8 @@
         "pk": "CMI", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Columbus, Indiana", 
             "name": "Cummins Inc.", 
             "exchange": "NYSE"
         }
@@ -1011,6 +1263,8 @@
         "pk": "CVS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Woonsocket, Rhode Island", 
             "name": "CVS Caremark Corp.", 
             "exchange": "NYSE"
         }
@@ -1019,6 +1273,8 @@
         "pk": "DHI", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Fort Worth, Texas", 
             "name": "D. R. Horton", 
             "exchange": "NYSE"
         }
@@ -1027,6 +1283,8 @@
         "pk": "DHR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Washington D.C", 
             "name": "Danaher Corp.", 
             "exchange": "NYSE"
         }
@@ -1035,6 +1293,8 @@
         "pk": "DRI", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Orlando, Florida", 
             "name": "Darden Restaurants", 
             "exchange": "NYSE"
         }
@@ -1043,6 +1303,8 @@
         "pk": "DVA", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Denver, Colorado", 
             "name": "DaVita Inc.", 
             "exchange": "NYSE"
         }
@@ -1051,6 +1313,8 @@
         "pk": "DF", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Dallas, Texas", 
             "name": "Dean Foods", 
             "exchange": "NYSE"
         }
@@ -1059,6 +1323,8 @@
         "pk": "DE", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Moline, Illinois", 
             "name": "Deere & Co.", 
             "exchange": "NYSE"
         }
@@ -1067,6 +1333,8 @@
         "pk": "DELL", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Round Rock, Texas", 
             "name": "Dell Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1075,6 +1343,8 @@
         "pk": "DNR", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Plano, Texas[3]", 
             "name": "Denbury Resources Inc.", 
             "exchange": "NYSE"
         }
@@ -1083,6 +1353,8 @@
         "pk": "XRAY", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "York, Pennsylvania", 
             "name": "Dentsply International", 
             "exchange": "NASDAQ"
         }
@@ -1091,6 +1363,8 @@
         "pk": "DVN", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Oklahoma City, Oklahoma", 
             "name": "Devon Energy Corp.", 
             "exchange": "NYSE"
         }
@@ -1099,6 +1373,8 @@
         "pk": "DV", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Downers Grove, Illinois", 
             "name": "DeVry", 
             "exchange": "NYSE"
         }
@@ -1107,6 +1383,8 @@
         "pk": "DO", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Diamond Offshore Drilling", 
             "exchange": "NYSE"
         }
@@ -1115,6 +1393,8 @@
         "pk": "DTV", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "El Segundo, California", 
             "name": "DirecTV", 
             "exchange": "NASDAQ"
         }
@@ -1123,6 +1403,8 @@
         "pk": "DFS", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Riverwoods, Illinois", 
             "name": "Discover Financial Services", 
             "exchange": "NYSE"
         }
@@ -1131,6 +1413,8 @@
         "pk": "DISCA", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Silver Spring, Maryland", 
             "name": "Discovery Communications", 
             "exchange": "NASDAQ"
         }
@@ -1139,6 +1423,8 @@
         "pk": "DLTR", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Chesapeake, Virginia", 
             "name": "Dollar Tree", 
             "exchange": "NASDAQ"
         }
@@ -1147,6 +1433,8 @@
         "pk": "D", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Richmond, Virginia", 
             "name": "Dominion Resources", 
             "exchange": "NYSE"
         }
@@ -1155,6 +1443,8 @@
         "pk": "RRD", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Chicago, Illinois", 
             "name": "Donnelley (R.R.) & Sons", 
             "exchange": "NASDAQ"
         }
@@ -1163,6 +1453,8 @@
         "pk": "DOV", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Downers Grove, Illinois", 
             "name": "Dover Corp.", 
             "exchange": "NYSE"
         }
@@ -1171,6 +1463,8 @@
         "pk": "DOW", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Midland, Michigan", 
             "name": "Dow Chemical", 
             "exchange": "NYSE"
         }
@@ -1179,6 +1473,8 @@
         "pk": "DPS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Plano, Texas", 
             "name": "Dr Pepper Snapple Group", 
             "exchange": "NYSE"
         }
@@ -1187,6 +1483,8 @@
         "pk": "DTE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Detroit, Michigan", 
             "name": "DTE Energy Co.", 
             "exchange": "NYSE"
         }
@@ -1195,6 +1493,8 @@
         "pk": "DD", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Wilmington, Delaware", 
             "name": "Du Pont (E.I.)", 
             "exchange": "NYSE"
         }
@@ -1203,6 +1503,8 @@
         "pk": "DUK", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Charlotte, North Carolina", 
             "name": "Duke Energy", 
             "exchange": "NYSE"
         }
@@ -1211,6 +1513,8 @@
         "pk": "DNB", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Short Hills, New Jersey", 
             "name": "Dun & Bradstreet", 
             "exchange": "NYSE"
         }
@@ -1219,6 +1523,8 @@
         "pk": "ETFC", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "E-Trade", 
             "exchange": "NASDAQ"
         }
@@ -1227,6 +1533,8 @@
         "pk": "EMN", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Kingsport, Tennessee", 
             "name": "Eastman Chemical", 
             "exchange": "NYSE"
         }
@@ -1235,6 +1543,8 @@
         "pk": "ETN", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Cleveland, Ohio", 
             "name": "Eaton Corp.", 
             "exchange": "NYSE"
         }
@@ -1243,6 +1553,8 @@
         "pk": "EBAY", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Jose, California", 
             "name": "eBay Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1251,6 +1563,8 @@
         "pk": "ECL", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "St. Paul, Minnesota", 
             "name": "Ecolab Inc.", 
             "exchange": "NYSE"
         }
@@ -1259,6 +1573,8 @@
         "pk": "EIX", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Rosemead, California", 
             "name": "Edison Int'l", 
             "exchange": "NYSE"
         }
@@ -1267,6 +1583,8 @@
         "pk": "EW", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Irvine, California", 
             "name": "Edwards Lifesciences", 
             "exchange": "NYSE"
         }
@@ -1275,6 +1593,8 @@
         "pk": "EP", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "El Paso Corp.", 
             "exchange": "NYSE"
         }
@@ -1283,6 +1603,8 @@
         "pk": "EA", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Redwood City, California", 
             "name": "Electronic Arts", 
             "exchange": "NASDAQ"
         }
@@ -1291,6 +1613,8 @@
         "pk": "EMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Hopkinton, Massachusetts", 
             "name": "EMC Corp.", 
             "exchange": "NYSE"
         }
@@ -1299,6 +1623,8 @@
         "pk": "EMR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Ferguson, Missouri", 
             "name": "Emerson Electric", 
             "exchange": "NYSE"
         }
@@ -1307,6 +1633,8 @@
         "pk": "ETR", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "New Orleans, Louisiana", 
             "name": "Entergy Corp.", 
             "exchange": "NYSE"
         }
@@ -1315,6 +1643,8 @@
         "pk": "EOG", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "EOG Resources", 
             "exchange": "NYSE"
         }
@@ -1323,6 +1653,8 @@
         "pk": "EQT", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "EQT Corporation", 
             "exchange": "NYSE"
         }
@@ -1331,6 +1663,8 @@
         "pk": "EFX", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Atlanta, Georgia", 
             "name": "Equifax Inc.", 
             "exchange": "NYSE"
         }
@@ -1339,6 +1673,8 @@
         "pk": "EQR", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Chicago, Illinois", 
             "name": "Equity Residential", 
             "exchange": "NYSE"
         }
@@ -1347,6 +1683,8 @@
         "pk": "EL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "New York, New York", 
             "name": "Estee Lauder Cos.", 
             "exchange": "NYSE"
         }
@@ -1355,6 +1693,8 @@
         "pk": "EXC", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Chicago, Illinois", 
             "name": "Exelon Corp.", 
             "exchange": "NYSE"
         }
@@ -1363,6 +1703,8 @@
         "pk": "EXPE", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Bellevue, Washington", 
             "name": "Expedia Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1371,6 +1713,8 @@
         "pk": "EXPD", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Seattle, Washington", 
             "name": "Expeditors Int'l", 
             "exchange": "NASDAQ"
         }
@@ -1379,6 +1723,8 @@
         "pk": "ESRX", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Cool Valley, Missouri", 
             "name": "Express Scripts", 
             "exchange": "NASDAQ"
         }
@@ -1387,6 +1733,8 @@
         "pk": "XOM", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Irving, Texas", 
             "name": "Exxon Mobil Corp.", 
             "exchange": "NYSE"
         }
@@ -1395,6 +1743,8 @@
         "pk": "FFIV", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Seattle, Washington", 
             "name": "F5 Networks", 
             "exchange": "NASDAQ"
         }
@@ -1403,6 +1753,8 @@
         "pk": "FDO", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Matthews, North Carolina", 
             "name": "Family Dollar Stores", 
             "exchange": "NYSE"
         }
@@ -1411,6 +1763,8 @@
         "pk": "FAST", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Winona, Minnesota", 
             "name": "Fastenal Co", 
             "exchange": "NASDAQ"
         }
@@ -1419,6 +1773,8 @@
         "pk": "FII", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "Federated Investors Inc.", 
             "exchange": "NYSE"
         }
@@ -1427,6 +1783,8 @@
         "pk": "FDX", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Memphis, Tennessee", 
             "name": "FedEx Corporation", 
             "exchange": "NYSE"
         }
@@ -1435,6 +1793,8 @@
         "pk": "FIS", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Jacksonville, Florida", 
             "name": "Fidelity National Information Services", 
             "exchange": "NYSE"
         }
@@ -1443,6 +1803,8 @@
         "pk": "FITB", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Cincinnati, Ohio", 
             "name": "Fifth Third Bancorp", 
             "exchange": "NASDAQ"
         }
@@ -1451,6 +1813,8 @@
         "pk": "FHN", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Memphis, Tennessee", 
             "name": "First Horizon National", 
             "exchange": "NYSE"
         }
@@ -1459,6 +1823,8 @@
         "pk": "FSLR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Tempe, Arizona", 
             "name": "First Solar Inc", 
             "exchange": "NASDAQ"
         }
@@ -1467,6 +1833,8 @@
         "pk": "FE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Akron, Ohio", 
             "name": "FirstEnergy Corp", 
             "exchange": "NYSE"
         }
@@ -1475,6 +1843,8 @@
         "pk": "FISV", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Brookfield, Wisconsin", 
             "name": "Fiserv Inc", 
             "exchange": "NASDAQ"
         }
@@ -1483,6 +1853,8 @@
         "pk": "FLIR", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Wilsonville, Oregon", 
             "name": "FLIR Systems", 
             "exchange": "NASDAQ"
         }
@@ -1491,6 +1863,8 @@
         "pk": "FLS", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Irving, Texas", 
             "name": "Flowserve Corporation", 
             "exchange": "NYSE"
         }
@@ -1499,6 +1873,8 @@
         "pk": "FLR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Irving, Texas", 
             "name": "Fluor Corp.", 
             "exchange": "NYSE"
         }
@@ -1507,6 +1883,8 @@
         "pk": "FMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Philadelphia, Pennsylvania", 
             "name": "FMC Corporation", 
             "exchange": "NYSE"
         }
@@ -1515,6 +1893,8 @@
         "pk": "FTI", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "FMC Technologies Inc.", 
             "exchange": "NYSE"
         }
@@ -1523,6 +1903,8 @@
         "pk": "F", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Dearborn, Michigan", 
             "name": "Ford Motor", 
             "exchange": "NYSE"
         }
@@ -1531,6 +1913,8 @@
         "pk": "FRX", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "New York, New York", 
             "name": "Forest Laboratories", 
             "exchange": "NYSE"
         }
@@ -1539,6 +1923,8 @@
         "pk": "BEN", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "San Mateo, California", 
             "name": "Franklin Resources", 
             "exchange": "NYSE"
         }
@@ -1547,6 +1933,8 @@
         "pk": "FCX", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Phoenix, Arizona", 
             "name": "Freeport-McMoran Cp & Gld", 
             "exchange": "NYSE"
         }
@@ -1555,6 +1943,8 @@
         "pk": "FTR", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Stamford, Connecticut", 
             "name": "Frontier Communications", 
             "exchange": "NASDAQ"
         }
@@ -1563,6 +1953,8 @@
         "pk": "GME", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Grapevine, Texas", 
             "name": "GameStop Corp.", 
             "exchange": "NYSE"
         }
@@ -1571,6 +1963,8 @@
         "pk": "GCI", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "McLean, Virginia", 
             "name": "Gannett Co.", 
             "exchange": "NYSE"
         }
@@ -1579,6 +1973,8 @@
         "pk": "GPS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "San Francisco, California", 
             "name": "Gap (The)", 
             "exchange": "NYSE"
         }
@@ -1587,6 +1983,8 @@
         "pk": "GD", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Falls Church, Virginia", 
             "name": "General Dynamics", 
             "exchange": "NYSE"
         }
@@ -1595,6 +1993,8 @@
         "pk": "GE", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Fairfield, Connecticut", 
             "name": "General Electric", 
             "exchange": "NYSE"
         }
@@ -1603,6 +2003,8 @@
         "pk": "GIS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Golden Valley, Minnesota", 
             "name": "General Mills", 
             "exchange": "NYSE"
         }
@@ -1611,6 +2013,8 @@
         "pk": "GPC", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Atlanta, Georgia", 
             "name": "Genuine Parts", 
             "exchange": "NYSE"
         }
@@ -1619,6 +2023,8 @@
         "pk": "GNW", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Richmond, Virginia", 
             "name": "Genworth Financial Inc.", 
             "exchange": "NYSE"
         }
@@ -1627,6 +2033,8 @@
         "pk": "GILD", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Foster City, California", 
             "name": "Gilead Sciences", 
             "exchange": "NASDAQ"
         }
@@ -1635,6 +2043,8 @@
         "pk": "GS", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Goldman Sachs Group", 
             "exchange": "NYSE"
         }
@@ -1643,6 +2053,8 @@
         "pk": "GR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Charlotte, North Carolina", 
             "name": "Goodrich Corporation", 
             "exchange": "NYSE"
         }
@@ -1651,6 +2063,8 @@
         "pk": "GT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Akron, Ohio", 
             "name": "Goodyear Tire & Rubber", 
             "exchange": "NYSE"
         }
@@ -1659,6 +2073,8 @@
         "pk": "GOOG", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Mountain View, California", 
             "name": "Google Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1667,6 +2083,8 @@
         "pk": "GWW", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Lake Forest, Illinois", 
             "name": "Grainger (W.W.) Inc.", 
             "exchange": "NYSE"
         }
@@ -1675,6 +2093,8 @@
         "pk": "HAL", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Halliburton Co.", 
             "exchange": "NYSE"
         }
@@ -1683,6 +2103,8 @@
         "pk": "HOG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Milwaukee, Wisconsin", 
             "name": "Harley-Davidson", 
             "exchange": "NYSE"
         }
@@ -1691,6 +2113,8 @@
         "pk": "HAR", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Stamford, Connecticut", 
             "name": "Harman Int'l Industries", 
             "exchange": "NYSE"
         }
@@ -1699,6 +2123,8 @@
         "pk": "HRS", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Melbourne, Florida", 
             "name": "Harris Corporation", 
             "exchange": "NYSE"
         }
@@ -1707,6 +2133,8 @@
         "pk": "HIG", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Hartford, Connecticut", 
             "name": "Hartford Financial Svc.Gp.", 
             "exchange": "NYSE"
         }
@@ -1715,6 +2143,8 @@
         "pk": "HAS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Pawtucket, Rhode Island", 
             "name": "Hasbro Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1723,6 +2153,8 @@
         "pk": "HCP", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Long Beach, California", 
             "name": "HCP Inc.", 
             "exchange": "NYSE"
         }
@@ -1731,6 +2163,8 @@
         "pk": "HCN", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Toledo, Ohio[4]", 
             "name": "Health Care REIT", 
             "exchange": "NYSE"
         }
@@ -1739,6 +2173,8 @@
         "pk": "HNZ", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "Heinz (H.J.)", 
             "exchange": "NYSE"
         }
@@ -1747,6 +2183,8 @@
         "pk": "HP", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Tulsa, Oklahoma[5]", 
             "name": "Helmerich & Payne", 
             "exchange": "NYSE"
         }
@@ -1755,6 +2193,8 @@
         "pk": "HES", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "New York, New York", 
             "name": "Hess Corporation", 
             "exchange": "NYSE"
         }
@@ -1763,6 +2203,8 @@
         "pk": "HPQ", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Palo Alto, California", 
             "name": "Hewlett-Packard", 
             "exchange": "NYSE"
         }
@@ -1771,6 +2213,8 @@
         "pk": "HD", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Cobb County, Georgia", 
             "name": "Home Depot", 
             "exchange": "NYSE"
         }
@@ -1779,6 +2223,8 @@
         "pk": "HON", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Morristown, New Jersey", 
             "name": "Honeywell Int'l Inc.", 
             "exchange": "NYSE"
         }
@@ -1787,6 +2233,8 @@
         "pk": "HRL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Austin, Minnesota", 
             "name": "Hormel Foods Corp.", 
             "exchange": "NYSE"
         }
@@ -1795,6 +2243,8 @@
         "pk": "HSP", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Lake Forest, Illinois", 
             "name": "Hospira Inc.", 
             "exchange": "NYSE"
         }
@@ -1803,6 +2253,8 @@
         "pk": "HST", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Bethesda, Maryland", 
             "name": "Host Hotels & Resorts", 
             "exchange": "NYSE"
         }
@@ -1811,6 +2263,8 @@
         "pk": "HCBK", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Paramus, New Jersey", 
             "name": "Hudson City Bancorp", 
             "exchange": "NASDAQ"
         }
@@ -1819,6 +2273,8 @@
         "pk": "HUM", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Louisville, Kentucky", 
             "name": "Humana Inc.", 
             "exchange": "NYSE"
         }
@@ -1827,6 +2283,8 @@
         "pk": "HBAN", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Columbus, Ohio", 
             "name": "Huntington Bancshares", 
             "exchange": "NASDAQ"
         }
@@ -1835,6 +2293,8 @@
         "pk": "ITW", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Glenview, Illinois", 
             "name": "Illinois Tool Works", 
             "exchange": "NYSE"
         }
@@ -1843,6 +2303,8 @@
         "pk": "TEG", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Chicago, Illinois", 
             "name": "Integrys Energy Group Inc.", 
             "exchange": "NYSE"
         }
@@ -1851,6 +2313,8 @@
         "pk": "INTC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Santa Clara, California", 
             "name": "Intel Corp.", 
             "exchange": "NASDAQ"
         }
@@ -1859,6 +2323,8 @@
         "pk": "ICE", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Atlanta, Georgia", 
             "name": "IntercontinentalExchange Inc.", 
             "exchange": "NYSE"
         }
@@ -1867,6 +2333,8 @@
         "pk": "IBM", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Armonk, New York", 
             "name": "International Bus. Machines", 
             "exchange": "NYSE"
         }
@@ -1875,6 +2343,8 @@
         "pk": "IFF", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "New York, New York", 
             "name": "International Flav/Frag", 
             "exchange": "NYSE"
         }
@@ -1883,6 +2353,8 @@
         "pk": "IGT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Reno, Nevada", 
             "name": "International Game Technology", 
             "exchange": "NYSE"
         }
@@ -1891,6 +2363,8 @@
         "pk": "IP", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Memphis, Tennessee", 
             "name": "International Paper", 
             "exchange": "NYSE"
         }
@@ -1899,6 +2373,8 @@
         "pk": "IPG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Interpublic Group", 
             "exchange": "NYSE"
         }
@@ -1907,6 +2383,8 @@
         "pk": "INTU", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Mountain View, California", 
             "name": "Intuit Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1915,6 +2393,8 @@
         "pk": "ISRG", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Sunnyvale, California", 
             "name": "Intuitive Surgical Inc.", 
             "exchange": "NASDAQ"
         }
@@ -1923,6 +2403,8 @@
         "pk": "IVZ", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Atlanta, Georgia", 
             "name": "Invesco Ltd.", 
             "exchange": "NYSE"
         }
@@ -1931,6 +2413,8 @@
         "pk": "IRM", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Boston, Massachusetts", 
             "name": "Iron Mountain Incorporated", 
             "exchange": "NYSE"
         }
@@ -1939,6 +2423,8 @@
         "pk": "XYL", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "White Plains, New York", 
             "name": "Xylem Inc.", 
             "exchange": "NYSE"
         }
@@ -1947,6 +2433,8 @@
         "pk": "JBL", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "St. Petersburg, Florida", 
             "name": "Jabil Circuit", 
             "exchange": "NYSE"
         }
@@ -1955,6 +2443,8 @@
         "pk": "JEC", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Pasadena, California", 
             "name": "Jacobs Engineering Group", 
             "exchange": "NYSE"
         }
@@ -1963,6 +2453,8 @@
         "pk": "CBE", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Houston, Texas", 
             "name": "Cooper Industries", 
             "exchange": "NYSE"
         }
@@ -1971,6 +2463,8 @@
         "pk": "JDSU", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Milpitas, California", 
             "name": "JDS Uniphase Corp.", 
             "exchange": "NASDAQ"
         }
@@ -1979,6 +2473,8 @@
         "pk": "JNJ", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "New Brunswick, New Jersey", 
             "name": "Johnson & Johnson", 
             "exchange": "NYSE"
         }
@@ -1987,6 +2483,8 @@
         "pk": "JCI", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Milwaukee, Wisconsin", 
             "name": "Johnson Controls", 
             "exchange": "NYSE"
         }
@@ -1995,6 +2493,8 @@
         "pk": "JOY", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Milwaukee, Wisconsin", 
             "name": "Joy Global Inc.", 
             "exchange": "NYSE"
         }
@@ -2003,6 +2503,8 @@
         "pk": "JPM", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "JPMorgan Chase & Co.", 
             "exchange": "NYSE"
         }
@@ -2011,6 +2513,8 @@
         "pk": "JNPR", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Sunnyvale, California", 
             "name": "Juniper Networks", 
             "exchange": "NYSE"
         }
@@ -2019,6 +2523,8 @@
         "pk": "KEY", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Cleveland, Ohio", 
             "name": "KeyCorp", 
             "exchange": "NYSE"
         }
@@ -2027,6 +2533,8 @@
         "pk": "KMB", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Irving, Texas", 
             "name": "Kimberly-Clark", 
             "exchange": "NYSE"
         }
@@ -2035,6 +2543,8 @@
         "pk": "KIM", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New Hyde Park, New York", 
             "name": "Kimco Realty", 
             "exchange": "NYSE"
         }
@@ -2043,6 +2553,8 @@
         "pk": "KLAC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Milpitas, California", 
             "name": "KLA-Tencor Corp.", 
             "exchange": "NASDAQ"
         }
@@ -2051,6 +2563,8 @@
         "pk": "KSS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Menomonee Falls, Wisconsin", 
             "name": "Kohl's Corp.", 
             "exchange": "NYSE"
         }
@@ -2059,6 +2573,8 @@
         "pk": "KFT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Northfield, Illinois", 
             "name": "Kraft Foods Inc-A", 
             "exchange": "NYSE"
         }
@@ -2067,6 +2583,8 @@
         "pk": "KR", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Cincinnati, Ohio", 
             "name": "Kroger Co.", 
             "exchange": "NYSE"
         }
@@ -2075,6 +2593,8 @@
         "pk": "LLL", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "New York, New York", 
             "name": "L-3 Communications Holdings", 
             "exchange": "NYSE"
         }
@@ -2083,6 +2603,8 @@
         "pk": "LH", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Burlington, North Carolina", 
             "name": "Laboratory Corp. of America Holding", 
             "exchange": "NYSE"
         }
@@ -2091,6 +2613,8 @@
         "pk": "LM", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Baltimore, Maryland", 
             "name": "Legg Mason", 
             "exchange": "NYSE"
         }
@@ -2099,6 +2623,8 @@
         "pk": "LEG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Carthage, Missouri", 
             "name": "Leggett & Platt", 
             "exchange": "NYSE"
         }
@@ -2107,6 +2633,8 @@
         "pk": "LEN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Miami, Florida", 
             "name": "Lennar Corp.", 
             "exchange": "NYSE"
         }
@@ -2115,6 +2643,8 @@
         "pk": "LUK", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Leucadia National Corp.", 
             "exchange": "NYSE"
         }
@@ -2123,6 +2653,8 @@
         "pk": "LXK", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Lexington, Kentucky", 
             "name": "Lexmark Int'l Inc", 
             "exchange": "NYSE"
         }
@@ -2131,6 +2663,8 @@
         "pk": "LIFE", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Carlsbad, California", 
             "name": "Life Technologies", 
             "exchange": "NASDAQ"
         }
@@ -2139,6 +2673,8 @@
         "pk": "LLY", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Indianapolis, Indiana", 
             "name": "Lilly (Eli) & Co.", 
             "exchange": "NYSE"
         }
@@ -2147,6 +2683,8 @@
         "pk": "LTD", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Columbus, Ohio", 
             "name": "Limited Brands Inc.", 
             "exchange": "NYSE"
         }
@@ -2155,6 +2693,8 @@
         "pk": "LNC", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Radnor, Pennsylvania", 
             "name": "Lincoln National", 
             "exchange": "NYSE"
         }
@@ -2163,6 +2703,8 @@
         "pk": "LLTC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Milpitas, California", 
             "name": "Linear Technology Corp.", 
             "exchange": "NASDAQ"
         }
@@ -2171,6 +2713,8 @@
         "pk": "LMT", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Bethesda, Maryland", 
             "name": "Lockheed Martin Corp.", 
             "exchange": "NYSE"
         }
@@ -2179,6 +2723,8 @@
         "pk": "L", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Loews Corp.", 
             "exchange": "NYSE"
         }
@@ -2187,6 +2733,8 @@
         "pk": "LO", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Greensboro, North Carolina", 
             "name": "Lorillard Inc.", 
             "exchange": "NYSE"
         }
@@ -2195,6 +2743,8 @@
         "pk": "LOW", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "North Wilkesboro, North Carolina", 
             "name": "Lowe's Cos.", 
             "exchange": "NYSE"
         }
@@ -2203,6 +2753,8 @@
         "pk": "LSI", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Milpitas, California", 
             "name": "LSI Corporation", 
             "exchange": "NYSE"
         }
@@ -2211,6 +2763,8 @@
         "pk": "MTB", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Buffalo, New York", 
             "name": "M&T Bank Corp.", 
             "exchange": "NYSE"
         }
@@ -2219,6 +2773,8 @@
         "pk": "M", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Cincinnati, Ohio", 
             "name": "Macy's Inc.", 
             "exchange": "NYSE"
         }
@@ -2227,6 +2783,8 @@
         "pk": "MRO", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Marathon Oil Corp.", 
             "exchange": "NYSE"
         }
@@ -2235,6 +2793,8 @@
         "pk": "MPC", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Findlay, Ohio", 
             "name": "Marathon Petroleum", 
             "exchange": "NYSE"
         }
@@ -2243,6 +2803,8 @@
         "pk": "MAR", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Bethesda, Maryland", 
             "name": "Marriott Int'l.", 
             "exchange": "NYSE"
         }
@@ -2251,6 +2813,8 @@
         "pk": "MMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Marsh & McLennan", 
             "exchange": "NYSE"
         }
@@ -2259,6 +2823,8 @@
         "pk": "MAS", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Taylor, Michigan", 
             "name": "Masco Corp.", 
             "exchange": "NYSE"
         }
@@ -2267,6 +2833,8 @@
         "pk": "ANR", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Abingdon, Virginia", 
             "name": "Alpha Natural Resources", 
             "exchange": "NYSE"
         }
@@ -2275,6 +2843,8 @@
         "pk": "MA", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Harrison, New York", 
             "name": "Mastercard Inc.", 
             "exchange": "NYSE"
         }
@@ -2283,6 +2853,8 @@
         "pk": "MAT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "El Segundo, California", 
             "name": "Mattel Inc.", 
             "exchange": "NASDAQ"
         }
@@ -2291,6 +2863,8 @@
         "pk": "MKC", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Sparks, Maryland", 
             "name": "McCormick & Co.", 
             "exchange": "NYSE"
         }
@@ -2299,6 +2873,8 @@
         "pk": "MCD", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Oak Brook, Illinois", 
             "name": "McDonald's Corp.", 
             "exchange": "NYSE"
         }
@@ -2307,6 +2883,8 @@
         "pk": "MHP", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "McGraw-Hill", 
             "exchange": "NYSE"
         }
@@ -2315,6 +2893,8 @@
         "pk": "MCK", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "San Francisco, California", 
             "name": "McKesson Corp.", 
             "exchange": "NYSE"
         }
@@ -2323,6 +2903,8 @@
         "pk": "MJN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Glenview, Illinois", 
             "name": "Mead Johnson", 
             "exchange": "NYSE"
         }
@@ -2331,6 +2913,8 @@
         "pk": "MWV", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Richmond, Virginia", 
             "name": "MeadWestvaco Corporation", 
             "exchange": "NYSE"
         }
@@ -2339,6 +2923,8 @@
         "pk": "MDT", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Fridley, Minnesota", 
             "name": "Medtronic Inc.", 
             "exchange": "NYSE"
         }
@@ -2347,6 +2933,8 @@
         "pk": "MRK", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Whitehouse Station, New Jersey", 
             "name": "Merck & Co.", 
             "exchange": "NYSE"
         }
@@ -2355,6 +2943,8 @@
         "pk": "MET", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "MetLife Inc.", 
             "exchange": "NYSE"
         }
@@ -2363,6 +2953,8 @@
         "pk": "PCS", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Richardson, Texas", 
             "name": "MetroPCS Communications Inc.", 
             "exchange": "NYSE"
         }
@@ -2371,6 +2963,8 @@
         "pk": "MCHP", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Chandler, Arizona", 
             "name": "Microchip Technology", 
             "exchange": "NASDAQ"
         }
@@ -2379,6 +2973,8 @@
         "pk": "MU", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Boise, Idaho", 
             "name": "Micron Technology", 
             "exchange": "NASDAQ"
         }
@@ -2387,6 +2983,8 @@
         "pk": "MSFT", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Redmond, Washington", 
             "name": "Microsoft Corp.", 
             "exchange": "NASDAQ"
         }
@@ -2395,6 +2993,8 @@
         "pk": "MOLX", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Lisle, Illinois", 
             "name": "Molex Inc.", 
             "exchange": "NASDAQ"
         }
@@ -2403,6 +3003,8 @@
         "pk": "TAP", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Denver, Colorado", 
             "name": "Molson Coors Brewing Company", 
             "exchange": "NYSE"
         }
@@ -2411,6 +3013,8 @@
         "pk": "MON", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Creve Coeur, Missouri", 
             "name": "Monsanto Co.", 
             "exchange": "NYSE"
         }
@@ -2419,6 +3023,8 @@
         "pk": "MCO", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Moody's Corp", 
             "exchange": "NYSE"
         }
@@ -2427,6 +3033,8 @@
         "pk": "MS", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Morgan Stanley", 
             "exchange": "NYSE"
         }
@@ -2435,6 +3043,8 @@
         "pk": "MOS", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Plymouth, Minnesota", 
             "name": "The Mosaic Company", 
             "exchange": "NYSE"
         }
@@ -2443,6 +3053,8 @@
         "pk": "MMI", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Libertyville, Illinois", 
             "name": "Motorola Mobility Holdings Inc.", 
             "exchange": "NYSE"
         }
@@ -2451,6 +3063,8 @@
         "pk": "MSI", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Schaumburg, Illinois", 
             "name": "Motorola Solutions Inc.", 
             "exchange": "NYSE"
         }
@@ -2459,6 +3073,8 @@
         "pk": "MUR", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "El Dorado, Arkansas", 
             "name": "Murphy Oil", 
             "exchange": "NYSE"
         }
@@ -2467,6 +3083,8 @@
         "pk": "MYL", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Canonsburg, Pennsylvania", 
             "name": "Mylan Inc.", 
             "exchange": "NASDAQ"
         }
@@ -2475,6 +3093,8 @@
         "pk": "NBR", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Hamilton, Bermuda", 
             "name": "Nabors Industries Ltd.", 
             "exchange": "NYSE"
         }
@@ -2483,6 +3103,8 @@
         "pk": "NDAQ", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "NASDAQ OMX Group", 
             "exchange": "NASDAQ"
         }
@@ -2491,6 +3113,8 @@
         "pk": "NOV", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "National Oilwell Varco Inc.", 
             "exchange": "NYSE"
         }
@@ -2499,6 +3123,8 @@
         "pk": "NTAP", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Sunnyvale, California", 
             "name": "NetApp", 
             "exchange": "NASDAQ"
         }
@@ -2507,6 +3133,8 @@
         "pk": "NFLX", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Los Gatos, California", 
             "name": "NetFlix Inc.", 
             "exchange": "NASDAQ"
         }
@@ -2515,6 +3143,8 @@
         "pk": "NFX", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Newfield Exploration Co", 
             "exchange": "NYSE"
         }
@@ -2523,6 +3153,8 @@
         "pk": "NEM", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Denver, Colorado", 
             "name": "Newmont Mining Corp. (Hldg. Co.)", 
             "exchange": "NYSE"
         }
@@ -2531,6 +3163,8 @@
         "pk": "NWSA", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "News Corporation", 
             "exchange": "NASDAQ"
         }
@@ -2539,6 +3173,8 @@
         "pk": "NEE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Juno Beach, Florida", 
             "name": "NextEra Energy Resources", 
             "exchange": "NYSE"
         }
@@ -2547,6 +3183,8 @@
         "pk": "NKE", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Washington County, Oregon", 
             "name": "NIKE Inc.", 
             "exchange": "NYSE"
         }
@@ -2555,6 +3193,8 @@
         "pk": "NI", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Merrillville, Indiana", 
             "name": "NiSource Inc.", 
             "exchange": "NYSE"
         }
@@ -2563,6 +3203,8 @@
         "pk": "NE", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Geneva, Switzerland", 
             "name": "Noble Corp", 
             "exchange": "NYSE"
         }
@@ -2571,6 +3213,8 @@
         "pk": "NBL", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Noble Energy Inc", 
             "exchange": "NYSE"
         }
@@ -2579,6 +3223,8 @@
         "pk": "JWN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Seattle, Washington", 
             "name": "Nordstrom", 
             "exchange": "NYSE"
         }
@@ -2587,6 +3233,8 @@
         "pk": "NSC", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Norfolk, Virginia", 
             "name": "Norfolk Southern Corp.", 
             "exchange": "NYSE"
         }
@@ -2595,6 +3243,8 @@
         "pk": "NTRS", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Chicago, Illinois", 
             "name": "Northern Trust Corp.", 
             "exchange": "NASDAQ"
         }
@@ -2603,6 +3253,8 @@
         "pk": "NOC", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "West Falls Church, Virginia", 
             "name": "Northrop Grumman Corp.", 
             "exchange": "NYSE"
         }
@@ -2611,6 +3263,8 @@
         "pk": "NU", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Berlin, Connecticut", 
             "name": "Northeast Utilities", 
             "exchange": "NYSE"
         }
@@ -2619,6 +3273,8 @@
         "pk": "CMG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Denver, Colorado", 
             "name": "Chipotle Mexican Grill", 
             "exchange": "NYSE"
         }
@@ -2627,6 +3283,8 @@
         "pk": "NVLS", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Jose, California", 
             "name": "Novellus Systems", 
             "exchange": "NASDAQ"
         }
@@ -2635,6 +3293,8 @@
         "pk": "NRG", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "West Windsor Township, New Jersey", 
             "name": "NRG Energy", 
             "exchange": "NYSE"
         }
@@ -2643,6 +3303,8 @@
         "pk": "NUE", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Charlotte, North Carolina", 
             "name": "Nucor Corp.", 
             "exchange": "NYSE"
         }
@@ -2651,6 +3313,8 @@
         "pk": "NVDA", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Santa Clara, California", 
             "name": "Nvidia Corporation", 
             "exchange": "NASDAQ"
         }
@@ -2659,6 +3323,8 @@
         "pk": "NYX", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "NYSE Euronext", 
             "exchange": "NYSE"
         }
@@ -2667,6 +3333,8 @@
         "pk": "ORLY", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Springfield, Missouri", 
             "name": "O'Reilly Automotive", 
             "exchange": "NASDAQ"
         }
@@ -2675,6 +3343,8 @@
         "pk": "OXY", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Los Angeles, California", 
             "name": "Occidental Petroleum", 
             "exchange": "NYSE"
         }
@@ -2683,6 +3353,8 @@
         "pk": "OMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Omnicom Group", 
             "exchange": "NYSE"
         }
@@ -2691,6 +3363,8 @@
         "pk": "OKE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Tulsa, Oklahoma", 
             "name": "ONEOK", 
             "exchange": "NYSE"
         }
@@ -2699,6 +3373,8 @@
         "pk": "ORCL", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Redwood Shores, California", 
             "name": "Oracle Corp.", 
             "exchange": "NASDAQ"
         }
@@ -2707,6 +3383,8 @@
         "pk": "OI", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Perrysburg, Ohio", 
             "name": "Owens-Illinois Inc", 
             "exchange": "NYSE"
         }
@@ -2715,6 +3393,8 @@
         "pk": "PCAR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Bellevue, Washington", 
             "name": "PACCAR Inc.", 
             "exchange": "NASDAQ"
         }
@@ -2723,6 +3403,8 @@
         "pk": "IR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Dublin, Ireland", 
             "name": "Ingersoll-Rand PLC", 
             "exchange": "NYSE"
         }
@@ -2731,6 +3413,8 @@
         "pk": "PLL", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Port Washington, New York", 
             "name": "Pall Corp.", 
             "exchange": "NYSE"
         }
@@ -2739,6 +3423,8 @@
         "pk": "PH", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Cleveland, Ohio", 
             "name": "Parker-Hannifin", 
             "exchange": "NYSE"
         }
@@ -2747,6 +3433,8 @@
         "pk": "PDCO", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "St. Paul, Minnesota", 
             "name": "Patterson Companies", 
             "exchange": "NASDAQ"
         }
@@ -2755,6 +3443,8 @@
         "pk": "PAYX", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Penfield, New York", 
             "name": "Paychex Inc.", 
             "exchange": "NASDAQ"
         }
@@ -2763,6 +3453,8 @@
         "pk": "BTU", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "St. Louis, Missouri", 
             "name": "Peabody Energy", 
             "exchange": "NYSE"
         }
@@ -2771,6 +3463,8 @@
         "pk": "JCP", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Plano, Texas", 
             "name": "Penney (J.C.)", 
             "exchange": "NYSE"
         }
@@ -2779,6 +3473,8 @@
         "pk": "PBCT", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Bridgeport, Connecticut", 
             "name": "People's United Bank", 
             "exchange": "NASDAQ"
         }
@@ -2787,6 +3483,8 @@
         "pk": "POM", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Washington D.C", 
             "name": "Pepco Holdings Inc.", 
             "exchange": "NYSE"
         }
@@ -2795,6 +3493,8 @@
         "pk": "PEP", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Purchase, New York", 
             "name": "PepsiCo Inc.", 
             "exchange": "NYSE"
         }
@@ -2803,6 +3503,8 @@
         "pk": "PKI", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Waltham, Massachusetts", 
             "name": "PerkinElmer", 
             "exchange": "NYSE"
         }
@@ -2811,6 +3513,8 @@
         "pk": "PRGO", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Allegan, Michigan", 
             "name": "Perrigo", 
             "exchange": "NASDAQ"
         }
@@ -2819,6 +3523,8 @@
         "pk": "PFE", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "New York, New York", 
             "name": "Pfizer Inc.", 
             "exchange": "NYSE"
         }
@@ -2827,6 +3533,8 @@
         "pk": "PCG", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "San Francisco, California", 
             "name": "PG&E Corp.", 
             "exchange": "NYSE"
         }
@@ -2835,6 +3543,8 @@
         "pk": "PM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "New York, New York", 
             "name": "Philip Morris International", 
             "exchange": "NYSE"
         }
@@ -2843,6 +3553,8 @@
         "pk": "PNW", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Phoenix, Arizona", 
             "name": "Pinnacle West Capital", 
             "exchange": "NYSE"
         }
@@ -2851,6 +3563,8 @@
         "pk": "PXD", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Irving, Texas", 
             "name": "Pioneer Natural Resources", 
             "exchange": "NYSE"
         }
@@ -2859,6 +3573,8 @@
         "pk": "PBI", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Stamford, Connecticut", 
             "name": "Pitney-Bowes", 
             "exchange": "NYSE"
         }
@@ -2867,6 +3583,8 @@
         "pk": "PCL", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Seattle, Washington", 
             "name": "Plum Creek Timber Co.", 
             "exchange": "NYSE"
         }
@@ -2875,6 +3593,8 @@
         "pk": "PNC", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "PNC Financial Services", 
             "exchange": "NYSE"
         }
@@ -2883,6 +3603,8 @@
         "pk": "RL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Polo Ralph Lauren Corp.", 
             "exchange": "NYSE"
         }
@@ -2891,6 +3613,8 @@
         "pk": "PPG", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "PPG Industries", 
             "exchange": "NYSE"
         }
@@ -2899,6 +3623,8 @@
         "pk": "PPL", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Allentown, Pennsylvania", 
             "name": "PPL Corp.", 
             "exchange": "NYSE"
         }
@@ -2907,6 +3633,8 @@
         "pk": "PX", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Danbury, Connecticut", 
             "name": "Praxair Inc.", 
             "exchange": "NYSE"
         }
@@ -2915,6 +3643,8 @@
         "pk": "PCP", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Portland, Oregon", 
             "name": "Precision Castparts", 
             "exchange": "NYSE"
         }
@@ -2923,6 +3653,8 @@
         "pk": "PCLN", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Norwalk, Connecticut", 
             "name": "Priceline.com Inc", 
             "exchange": "NASDAQ"
         }
@@ -2931,6 +3663,8 @@
         "pk": "PFG", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Des Moines, Iowa", 
             "name": "Principal Financial Group", 
             "exchange": "NYSE"
         }
@@ -2939,6 +3673,8 @@
         "pk": "PG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Cincinnati, Ohio", 
             "name": "Procter & Gamble", 
             "exchange": "NYSE"
         }
@@ -2947,6 +3683,8 @@
         "pk": "PGN", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Raleigh, North Carolina", 
             "name": "Progress Energy Inc.", 
             "exchange": "NYSE"
         }
@@ -2955,6 +3693,8 @@
         "pk": "PGR", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Mayfield Village, Ohio", 
             "name": "Progressive Corp.", 
             "exchange": "NYSE"
         }
@@ -2963,6 +3703,8 @@
         "pk": "PLD", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Denver, Colorado", 
             "name": "ProLogis", 
             "exchange": "NYSE"
         }
@@ -2971,6 +3713,8 @@
         "pk": "PRU", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Newark, New Jersey", 
             "name": "Prudential Financial", 
             "exchange": "NYSE"
         }
@@ -2979,6 +3723,8 @@
         "pk": "PEG", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Newark, New Jersey", 
             "name": "Public Serv. Enterprise Inc.", 
             "exchange": "NYSE"
         }
@@ -2987,6 +3733,8 @@
         "pk": "PSA", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Glendale, California", 
             "name": "Public Storage", 
             "exchange": "NYSE"
         }
@@ -2995,6 +3743,8 @@
         "pk": "PHM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Bloomfield Hills, Michigan", 
             "name": "Pulte Homes Inc.", 
             "exchange": "NYSE"
         }
@@ -3003,6 +3753,8 @@
         "pk": "QEP", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Denver, Colorado[6]", 
             "name": "QEP Resources", 
             "exchange": "NYSE"
         }
@@ -3011,6 +3763,8 @@
         "pk": "PWR", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Houston, Texas", 
             "name": "Quanta Services Inc.", 
             "exchange": "NYSE"
         }
@@ -3019,6 +3773,8 @@
         "pk": "QCOM", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Diego, California", 
             "name": "QUALCOMM Inc.", 
             "exchange": "NASDAQ"
         }
@@ -3027,6 +3783,8 @@
         "pk": "DGX", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Madison, New Jersey", 
             "name": "Quest Diagnostics", 
             "exchange": "NYSE"
         }
@@ -3035,6 +3793,8 @@
         "pk": "RRC", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Fort Worth, Texas", 
             "name": "Range Resources Corp.", 
             "exchange": "NYSE"
         }
@@ -3043,6 +3803,8 @@
         "pk": "RTN", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Waltham, Massachusetts", 
             "name": "Raytheon Co.", 
             "exchange": "NYSE"
         }
@@ -3051,6 +3813,8 @@
         "pk": "RHT", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Raleigh, North Carolina", 
             "name": "Red Hat Inc.", 
             "exchange": "NYSE"
         }
@@ -3059,6 +3823,8 @@
         "pk": "RF", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Birmingham, Alabama", 
             "name": "Regions Financial Corp.", 
             "exchange": "NYSE"
         }
@@ -3067,6 +3833,8 @@
         "pk": "RSG", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Phoenix, Arizona", 
             "name": "Republic Services Inc", 
             "exchange": "NYSE"
         }
@@ -3075,6 +3843,8 @@
         "pk": "RAI", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Winston-Salem, North Carolina", 
             "name": "Reynolds American Inc.", 
             "exchange": "NYSE"
         }
@@ -3083,6 +3853,8 @@
         "pk": "RHI", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Menlo Park, California", 
             "name": "Robert Half International", 
             "exchange": "NYSE"
         }
@@ -3091,6 +3863,8 @@
         "pk": "ROK", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Milwaukee, Wisconsin", 
             "name": "Rockwell Automation Inc.", 
             "exchange": "NYSE"
         }
@@ -3099,6 +3873,8 @@
         "pk": "COL", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Cedar Rapids, Iowa", 
             "name": "Rockwell Collins", 
             "exchange": "NYSE"
         }
@@ -3107,6 +3883,8 @@
         "pk": "ROP", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Sarasota, Florida", 
             "name": "Roper Industries", 
             "exchange": "NYSE"
         }
@@ -3115,6 +3893,8 @@
         "pk": "ROST", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Pleasanton, California", 
             "name": "Ross Stores Inc.", 
             "exchange": "NASDAQ"
         }
@@ -3123,6 +3903,8 @@
         "pk": "RDC", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Rowan Cos.", 
             "exchange": "NYSE"
         }
@@ -3131,6 +3913,8 @@
         "pk": "R", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Miami, Florida", 
             "name": "Ryder System", 
             "exchange": "NYSE"
         }
@@ -3139,6 +3923,8 @@
         "pk": "SWY", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Pleasanton, California", 
             "name": "Safeway Inc.", 
             "exchange": "NYSE"
         }
@@ -3147,6 +3933,8 @@
         "pk": "SAI", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "McLean, Virginia", 
             "name": "SAIC", 
             "exchange": "NYSE"
         }
@@ -3155,6 +3943,8 @@
         "pk": "CRM", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Francisco, California", 
             "name": "Salesforce.com", 
             "exchange": "NYSE"
         }
@@ -3163,6 +3953,8 @@
         "pk": "SNDK", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Milpitas, California", 
             "name": "SanDisk Corporation", 
             "exchange": "NASDAQ"
         }
@@ -3171,6 +3963,8 @@
         "pk": "SLE", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Downers Grove, Illinois", 
             "name": "Sara Lee Corp.", 
             "exchange": "NYSE"
         }
@@ -3179,6 +3973,8 @@
         "pk": "SCG", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Cayce, South Carolina", 
             "name": "SCANA Corp", 
             "exchange": "NYSE"
         }
@@ -3187,6 +3983,8 @@
         "pk": "SLB", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Schlumberger Ltd.", 
             "exchange": "NYSE"
         }
@@ -3195,6 +3993,8 @@
         "pk": "SNI", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Cincinnati, Ohio", 
             "name": "Scripps Networks Interactive Inc.", 
             "exchange": "NYSE"
         }
@@ -3203,6 +4003,8 @@
         "pk": "SEE", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Elmwood Park, New Jersey", 
             "name": "Sealed Air Corp.(New)", 
             "exchange": "NYSE"
         }
@@ -3211,6 +4013,8 @@
         "pk": "SHLD", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Hoffman Estates, Illinois", 
             "name": "Sears Holdings Corporation", 
             "exchange": "NASDAQ"
         }
@@ -3219,6 +4023,8 @@
         "pk": "SRE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "San Diego, California", 
             "name": "Sempra Energy", 
             "exchange": "NYSE"
         }
@@ -3227,6 +4033,8 @@
         "pk": "SHW", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Cleveland, Ohio", 
             "name": "Sherwin-Williams", 
             "exchange": "NYSE"
         }
@@ -3235,6 +4043,8 @@
         "pk": "SIAL", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "St. Louis, Missouri", 
             "name": "Sigma-Aldrich", 
             "exchange": "NASDAQ"
         }
@@ -3243,6 +4053,8 @@
         "pk": "SPG", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Indianapolis, Indiana", 
             "name": "Simon Property Group Inc", 
             "exchange": "NYSE"
         }
@@ -3251,6 +4063,8 @@
         "pk": "SLM", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Newark, Delaware", 
             "name": "SLM Corporation", 
             "exchange": "NASDAQ"
         }
@@ -3259,6 +4073,8 @@
         "pk": "SJM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Orrville, Ohio", 
             "name": "Smucker (J.M.)", 
             "exchange": "NYSE"
         }
@@ -3267,6 +4083,8 @@
         "pk": "SNA", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Kenosha, Wisconsin", 
             "name": "Snap-On Inc.", 
             "exchange": "NYSE"
         }
@@ -3275,6 +4093,8 @@
         "pk": "SO", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Atlanta, Georgia", 
             "name": "Southern Co.", 
             "exchange": "NYSE"
         }
@@ -3283,6 +4103,8 @@
         "pk": "LUV", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Dallas, Texas", 
             "name": "Southwest Airlines", 
             "exchange": "NYSE"
         }
@@ -3291,6 +4113,8 @@
         "pk": "SWN", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas[7]", 
             "name": "Southwestern Energy", 
             "exchange": "NYSE"
         }
@@ -3299,6 +4123,8 @@
         "pk": "SE", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Houston, Texas", 
             "name": "Spectra Energy Corp.", 
             "exchange": "NYSE"
         }
@@ -3307,6 +4133,8 @@
         "pk": "S", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Overland Park, Kansas", 
             "name": "Sprint Nextel Corp.", 
             "exchange": "NYSE"
         }
@@ -3315,6 +4143,8 @@
         "pk": "STJ", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Little Canada, Minnesota", 
             "name": "St Jude Medical", 
             "exchange": "NYSE"
         }
@@ -3323,6 +4153,8 @@
         "pk": "SWK", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New Britain, Connecticut", 
             "name": "Stanley Black & Decker", 
             "exchange": "NYSE"
         }
@@ -3331,6 +4163,8 @@
         "pk": "SPLS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Framingham, Massachusetts", 
             "name": "Staples Inc.", 
             "exchange": "NASDAQ"
         }
@@ -3339,6 +4173,8 @@
         "pk": "SBUX", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Seattle, Washington", 
             "name": "Starbucks Corp.", 
             "exchange": "NASDAQ"
         }
@@ -3347,6 +4183,8 @@
         "pk": "HOT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "White Plains, New York", 
             "name": "Starwood Hotels & Resorts", 
             "exchange": "NYSE"
         }
@@ -3355,6 +4193,8 @@
         "pk": "STT", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Boston, Massachusetts", 
             "name": "State Street Corp.", 
             "exchange": "NYSE"
         }
@@ -3363,6 +4203,8 @@
         "pk": "SRCL", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Lake Forest, Illinois", 
             "name": "Stericycle Inc", 
             "exchange": "NASDAQ"
         }
@@ -3371,6 +4213,8 @@
         "pk": "SYK", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Kalamazoo, Michigan", 
             "name": "Stryker Corp.", 
             "exchange": "NYSE"
         }
@@ -3379,6 +4223,8 @@
         "pk": "SUN", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Philadelphia, Pennsylvania", 
             "name": "Sunoco Inc.", 
             "exchange": "NYSE"
         }
@@ -3387,6 +4233,8 @@
         "pk": "STI", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Atlanta, Georgia", 
             "name": "SunTrust Banks", 
             "exchange": "NYSE"
         }
@@ -3395,6 +4243,8 @@
         "pk": "SVU", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Eden Prairie, Minnesota", 
             "name": "Supervalu Inc.", 
             "exchange": "NYSE"
         }
@@ -3403,6 +4253,8 @@
         "pk": "SYMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Mountain View, California", 
             "name": "Symantec Corp.", 
             "exchange": "NASDAQ"
         }
@@ -3411,6 +4263,8 @@
         "pk": "SYY", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Houston, Texas", 
             "name": "Sysco Corp.", 
             "exchange": "NYSE"
         }
@@ -3419,6 +4273,8 @@
         "pk": "TROW", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Baltimore, Maryland", 
             "name": "T. Rowe Price Group", 
             "exchange": "NASDAQ"
         }
@@ -3427,6 +4283,8 @@
         "pk": "TGT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Minneapolis, Minnesota", 
             "name": "Target Corp.", 
             "exchange": "NYSE"
         }
@@ -3435,6 +4293,8 @@
         "pk": "TEL", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Schaffhausen, Switzerland", 
             "name": "TE Connectivity Ltd.", 
             "exchange": "NYSE"
         }
@@ -3443,6 +4303,8 @@
         "pk": "TE", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Tampa, Florida", 
             "name": "TECO Energy", 
             "exchange": "NYSE"
         }
@@ -3451,6 +4313,8 @@
         "pk": "THC", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Dallas, Texas", 
             "name": "Tenet Healthcare Corp.", 
             "exchange": "NYSE"
         }
@@ -3459,6 +4323,8 @@
         "pk": "TDC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Miamisburg, Ohio", 
             "name": "Teradata Corp.", 
             "exchange": "NYSE"
         }
@@ -3467,6 +4333,8 @@
         "pk": "TER", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "North Reading, Massachusetts", 
             "name": "Teradyne Inc.", 
             "exchange": "NYSE"
         }
@@ -3475,6 +4343,8 @@
         "pk": "TSO", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "San Antonio, Texas", 
             "name": "Tesoro Petroleum Co.", 
             "exchange": "NYSE"
         }
@@ -3483,6 +4353,8 @@
         "pk": "TXN", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Dallas, Texas", 
             "name": "Texas Instruments", 
             "exchange": "NASDAQ"
         }
@@ -3491,6 +4363,8 @@
         "pk": "TXT", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Providence, Rhode Island", 
             "name": "Textron Inc.", 
             "exchange": "NYSE"
         }
@@ -3499,6 +4373,8 @@
         "pk": "HSY", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Hershey, Pennsylvania", 
             "name": "The Hershey Company", 
             "exchange": "NYSE"
         }
@@ -3507,6 +4383,8 @@
         "pk": "TRV", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "The Travelers Companies Inc.", 
             "exchange": "NYSE"
         }
@@ -3515,6 +4393,8 @@
         "pk": "TMO", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Waltham, Massachusetts", 
             "name": "Thermo Fisher Scientific", 
             "exchange": "NYSE"
         }
@@ -3523,6 +4403,8 @@
         "pk": "TIF", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Tiffany & Co.", 
             "exchange": "NYSE"
         }
@@ -3531,6 +4413,8 @@
         "pk": "TWX", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Time Warner Inc.", 
             "exchange": "NYSE"
         }
@@ -3539,6 +4423,8 @@
         "pk": "TWC", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Time Warner Cable Inc.", 
             "exchange": "NYSE"
         }
@@ -3547,6 +4433,8 @@
         "pk": "TIE", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Dallas, Texas", 
             "name": "Titanium Metals Corp", 
             "exchange": "NYSE"
         }
@@ -3555,6 +4443,8 @@
         "pk": "TJX", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Framingham, Massachusetts", 
             "name": "TJX Companies Inc.", 
             "exchange": "NYSE"
         }
@@ -3563,6 +4453,8 @@
         "pk": "TMK", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "McKinney, Texas", 
             "name": "Torchmark Corp.", 
             "exchange": "NYSE"
         }
@@ -3571,6 +4463,8 @@
         "pk": "TSS", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Columbus, Georgia", 
             "name": "Total System Services", 
             "exchange": "NYSE"
         }
@@ -3579,6 +4473,8 @@
         "pk": "TSN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Springdale, Arkansas", 
             "name": "Tyson Foods", 
             "exchange": "NYSE"
         }
@@ -3587,6 +4483,8 @@
         "pk": "TYC", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Princeton, New Jersey", 
             "name": "Tyco International", 
             "exchange": "NYSE"
         }
@@ -3595,6 +4493,8 @@
         "pk": "USB", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Minneapolis, Minnesota", 
             "name": "U.S. Bancorp", 
             "exchange": "NYSE"
         }
@@ -3603,6 +4503,8 @@
         "pk": "UNP", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Omaha, Nebraska", 
             "name": "Union Pacific", 
             "exchange": "NYSE"
         }
@@ -3611,6 +4513,8 @@
         "pk": "UNH", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Minnetonka, Minnesota", 
             "name": "United Health Group Inc.", 
             "exchange": "NYSE"
         }
@@ -3619,6 +4523,8 @@
         "pk": "UPS", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Sandy Springs, Georgia", 
             "name": "United Parcel Service", 
             "exchange": "NYSE"
         }
@@ -3627,6 +4533,8 @@
         "pk": "X", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Pittsburgh, Pennsylvania", 
             "name": "United States Steel Corp.", 
             "exchange": "NYSE"
         }
@@ -3635,6 +4543,8 @@
         "pk": "UTX", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Hartford, Connecticut", 
             "name": "United Technologies", 
             "exchange": "NYSE"
         }
@@ -3643,6 +4553,8 @@
         "pk": "UNM", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Chattanooga, Tennessee", 
             "name": "Unum Group", 
             "exchange": "NYSE"
         }
@@ -3651,6 +4563,8 @@
         "pk": "URBN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Philadelphia, Pennsylvania", 
             "name": "Urban Outfitters", 
             "exchange": "NASDAQ"
         }
@@ -3659,6 +4573,8 @@
         "pk": "VFC", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Greensboro, North Carolina", 
             "name": "V.F. Corp.", 
             "exchange": "NYSE"
         }
@@ -3667,6 +4583,8 @@
         "pk": "VLO", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "San Antonio, Texas", 
             "name": "Valero Energy", 
             "exchange": "NYSE"
         }
@@ -3675,6 +4593,8 @@
         "pk": "VAR", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Palo Alto, California", 
             "name": "Varian Medical Systems", 
             "exchange": "NYSE"
         }
@@ -3683,6 +4603,8 @@
         "pk": "VTR", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Chicago, Illinois", 
             "name": "Ventas Inc", 
             "exchange": "NYSE"
         }
@@ -3691,6 +4613,8 @@
         "pk": "VRSN", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Dulles, Virginia", 
             "name": "Verisign Inc.", 
             "exchange": "NASDAQ"
         }
@@ -3699,6 +4623,8 @@
         "pk": "VZ", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "New York, New York", 
             "name": "Verizon Communications", 
             "exchange": "NYSE"
         }
@@ -3707,6 +4633,8 @@
         "pk": "VIAB", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "New York, New York", 
             "name": "Viacom Inc.", 
             "exchange": "NASDAQ"
         }
@@ -3715,6 +4643,8 @@
         "pk": "V", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Francisco, California", 
             "name": "Visa Inc.", 
             "exchange": "NYSE"
         }
@@ -3723,6 +4653,8 @@
         "pk": "VNO", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "New York, New York", 
             "name": "Vornado Realty Trust", 
             "exchange": "NYSE"
         }
@@ -3731,6 +4663,8 @@
         "pk": "VMC", 
         "model": "company.company", 
         "fields": {
+            "sector": "Materials", 
+            "location": "Birmingham, Alabama", 
             "name": "Vulcan Materials", 
             "exchange": "NYSE"
         }
@@ -3739,6 +4673,8 @@
         "pk": "WMT", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Bentonville, Arkansas", 
             "name": "Wal-Mart Stores", 
             "exchange": "NYSE"
         }
@@ -3747,6 +4683,8 @@
         "pk": "WAG", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Deerfield, Illinois", 
             "name": "Walgreen Co.", 
             "exchange": "NYSE"
         }
@@ -3755,6 +4693,8 @@
         "pk": "DIS", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Burbank, California", 
             "name": "Walt Disney Co.", 
             "exchange": "NYSE"
         }
@@ -3763,6 +4703,8 @@
         "pk": "WPO", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Washington D.C", 
             "name": "Washington Post Co B", 
             "exchange": "NYSE"
         }
@@ -3771,6 +4713,8 @@
         "pk": "WM", 
         "model": "company.company", 
         "fields": {
+            "sector": "in", 
+            "location": "Houston, Texas", 
             "name": "Waste Management Inc.", 
             "exchange": "NYSE"
         }
@@ -3779,6 +4723,8 @@
         "pk": "WAT", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Milford, Massachusetts", 
             "name": "Waters Corporation", 
             "exchange": "NYSE"
         }
@@ -3787,6 +4733,8 @@
         "pk": "WPI", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Corona, California", 
             "name": "Watson Pharmaceuticals", 
             "exchange": "NYSE"
         }
@@ -3795,6 +4743,8 @@
         "pk": "WLP", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Indianapolis, Indiana", 
             "name": "WellPoint Inc.", 
             "exchange": "NYSE"
         }
@@ -3803,6 +4753,8 @@
         "pk": "WFC", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "San Francisco, California", 
             "name": "Wells Fargo", 
             "exchange": "NYSE"
         }
@@ -3811,6 +4763,8 @@
         "pk": "WDC", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Irvine, California", 
             "name": "Western Digital", 
             "exchange": "NYSE"
         }
@@ -3819,6 +4773,8 @@
         "pk": "WU", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Englewood, Colorado", 
             "name": "Western Union Co", 
             "exchange": "NYSE"
         }
@@ -3827,6 +4783,8 @@
         "pk": "WY", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Federal Way, Washington", 
             "name": "Weyerhaeuser Corp.", 
             "exchange": "NYSE"
         }
@@ -3835,6 +4793,8 @@
         "pk": "WHR", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Benton Harbor, Michigan", 
             "name": "Whirlpool Corp.", 
             "exchange": "NYSE"
         }
@@ -3843,6 +4803,8 @@
         "pk": "WFM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Austin, Texas", 
             "name": "Whole Foods Market", 
             "exchange": "NASDAQ"
         }
@@ -3851,6 +4813,8 @@
         "pk": "WMB", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Tulsa, Oklahoma", 
             "name": "Williams Cos.", 
             "exchange": "NYSE"
         }
@@ -3859,6 +4823,8 @@
         "pk": "WIN", 
         "model": "company.company", 
         "fields": {
+            "sector": "ts", 
+            "location": "Little Rock, Arkansas", 
             "name": "Windstream Corporation", 
             "exchange": "NASDAQ"
         }
@@ -3867,6 +4833,8 @@
         "pk": "WEC", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Milwaukee, Wisconsin", 
             "name": "Wisconsin Energy Corporation", 
             "exchange": "NYSE"
         }
@@ -3875,6 +4843,8 @@
         "pk": "WPX", 
         "model": "company.company", 
         "fields": {
+            "sector": "en", 
+            "location": "Tulsa, OK", 
             "name": "WPX Energy", 
             "exchange": "NYSE"
         }
@@ -3883,6 +4853,8 @@
         "pk": "WYN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Parsippany-Troy Hills, New Jersey", 
             "name": "Wyndham Worldwide", 
             "exchange": "NYSE"
         }
@@ -3891,6 +4863,8 @@
         "pk": "WYNN", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Las Vegas, Nevada", 
             "name": "Wynn Resorts Ltd", 
             "exchange": "NASDAQ"
         }
@@ -3899,6 +4873,8 @@
         "pk": "XEL", 
         "model": "company.company", 
         "fields": {
+            "sector": "ut", 
+            "location": "Minneapolis, Minnesota", 
             "name": "Xcel Energy Inc", 
             "exchange": "NYSE"
         }
@@ -3907,6 +4883,8 @@
         "pk": "XRX", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Norwalk, Connecticut", 
             "name": "Xerox Corp.", 
             "exchange": "NYSE"
         }
@@ -3915,6 +4893,8 @@
         "pk": "XLNX", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "San Jose, California", 
             "name": "Xilinx Inc", 
             "exchange": "NASDAQ"
         }
@@ -3923,6 +4903,8 @@
         "pk": "XL", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Hamilton, Bermuda", 
             "name": "XL Capital", 
             "exchange": "NYSE"
         }
@@ -3931,6 +4913,8 @@
         "pk": "YHOO", 
         "model": "company.company", 
         "fields": {
+            "sector": "it", 
+            "location": "Sunnyvale, California", 
             "name": "Yahoo Inc.", 
             "exchange": "NASDAQ"
         }
@@ -3939,6 +4923,8 @@
         "pk": "YUM", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Louisville, Kentucky", 
             "name": "Yum! Brands Inc", 
             "exchange": "NYSE"
         }
@@ -3947,6 +4933,8 @@
         "pk": "ZMH", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Warsaw, Indiana", 
             "name": "Zimmer Holdings", 
             "exchange": "NYSE"
         }
@@ -3955,6 +4943,8 @@
         "pk": "ZION", 
         "model": "company.company", 
         "fields": {
+            "sector": "fi", 
+            "location": "Salt Lake City, Utah", 
             "name": "Zions Bancorp", 
             "exchange": "NASDAQ"
         }
@@ -3963,6 +4953,8 @@
         "pk": "K", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Battle Creek, Michigan", 
             "name": "Kellogg Co.", 
             "exchange": "NYSE"
         }
@@ -3971,6 +4963,8 @@
         "pk": "BFB", 
         "model": "company.company", 
         "fields": {
+            "sector": "cs", 
+            "location": "Louisville, Kentucky", 
             "name": "Brown-Forman Corporation", 
             "exchange": "NYSE"
         }
@@ -3979,6 +4973,8 @@
         "pk": "TRIP", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Bellevue, Washington", 
             "name": "TripAdvisor", 
             "exchange": "NASDAQ"
         }
@@ -3987,6 +4983,8 @@
         "pk": "NWL", 
         "model": "company.company", 
         "fields": {
+            "sector": "cd", 
+            "location": "Sandy Springs, Georgia", 
             "name": "Newell Rubbermaid Co.", 
             "exchange": "NYSE"
         }
@@ -3995,6 +4993,8 @@
         "pk": "MHS", 
         "model": "company.company", 
         "fields": {
+            "sector": "hc", 
+            "location": "Franklin Lakes, New Jersey", 
             "name": "Medco Health Solutions Inc.", 
             "exchange": "NYSE"
         }

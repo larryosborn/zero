@@ -3,8 +3,8 @@ from django.conf import settings
 from zero.company import views
 
 urlpatterns = patterns('',
-    url(r'^$', views.list, name='list-view'),
-    url(r'^stats/([\w\.:]*)/(\d*)$', views.stats, name='stats-view'),
-    url(r'^ohlc/([\w\.:]*)/(\d*)$', views.ohlc, name='ohlc-view'),
-    url(r'^([\w\.:]*)$', views.details, name='details-view'),
+    url(r'^$', views.list, name='company-list'),
+    url(r'^movers/(\d+)/(\d+)/(\d+)$', views.movers, name='company-movers'),
+    url(r'^ohlc/([\w\.:]*)/(\d*)$', views.ohlc, name='company-ohlc'),
+    url(r'^([\w\.:]*)$', views.details, name='company-details'),
 )

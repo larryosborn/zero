@@ -17,7 +17,7 @@ body {
 }
 #nav-bar ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0;
     list-style-type: none;
     overflow: hidden;
 }
@@ -34,7 +34,14 @@ body {
     float: left;
 }
 #nav-bar a:hover {
-    background: #222;
+    background-color: #222;
+}
+#nav-bar .home-view {
+    background: #333 url(../img/zero-white-icon-16.png) no-repeat center center;
+    padding-lef2t: 30px;
+    width: 16px;
+    text-indent: -1000000px;
+    
 }
 
 .styled th, .styled td {

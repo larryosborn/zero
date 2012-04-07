@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load number_extras %}
+{% block head %}{% endblock head %}
+{% block content %}
+<h1 class="section-title">{{ date }}</h1>
+<table class="styled">
+    <thead>
+    <tr>
+        <th>Symbol</th>
+        <th>Company</th>
+        <th>Opened</th>
+        <th>High</th>
+        <th>Low</th>
+        <th>Closed</th>
+        <th>Change</th>
+        <th>Change Pct</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in prices %}
+        <tr class="{% cycle 'odd' 'even' %}">
+            <td><a href="{% url company-details i.company.symbol %}">{{ i.company.symbol }}</a></td>
+            <td>{{ i.company.name }}</td>
+            <td class="number">${{ i.opened }}</td>
+            <td class="number">${{ i.high }}</td>
+            <td class="number">${{ i.low }}</td>
+            <td class="number">${{ i.closed }}</td>
+            <td class="number {{ i.change_pct|number_class }}">${{ i.change }}</td>
+            <td class="number {{ i.change_pct|number_class }}">{{ i.change_pct }}%</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".styled").tablesorter();
+    $(".styled").bind('sortEnd', function() {
+        var rows = $(this).find('tbody tr');
+        rows.removeClass('odd').removeClass('even');
+        rows.each(function(idx, i) { $(i).addClass(idx % 2 ? 'even' : 'odd'); });
+    });
+});
+</script>
+
+{% endblock content %}

@@ -29,7 +29,7 @@ class Company(models.Model):
 
     def latest_price(self):
         price = Price.objects.order_by('-date').filter(company=self)[:1].get()
-        return price.closed
+        return price
 
     def ohlc(self, days):
         prices = self.price_set.order_by('-date').all()[:days]

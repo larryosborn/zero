@@ -1,16 +1,70 @@
 {% extends "base.html" %}
-{% block head %}
-    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}jquery.sparkline.js"></script>
-    <!--<script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highcharts/js/highcharts.src.js"></script>-->
-    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}highstock/js/highstock.src.js"></script>
-{% endblock head %}
+{% block page_title %}
+    <div class="company-header">
+        <div class="left-col">
+            <div class="company-price">${{ company.latest_price.closed }}</div>
+            <div class="company-date"><a href="{% url company-movers company.latest_price.date.year, company.latest_price.date.month, company.latest_price.date.day %}" class="company-movers">{{ company.latest_price.date|date:"Y-m-d" }}</a></div>
+        </div>
+        <div class="mid-col">
+            <div class="company-name">{{ company.name }}</div>
+            <div class="company-symbol"><a href="{{ company.google_url }}">{{ company.exchange }}:{{ company.symbol }}</a></div>
+        </div>
+        <div class="right-col">
+            <div class="company-location">{{ company.location }}</div>
+            <div class="company-sector">{{ company.get_sector_display }}</div>
+        </div>
+    </div>
+{% endblock page_title %}
 {% block content %}
-    <h1 class="section-title">{{ company.name }}</h1>
-    {{ company.location }}
-    {{ company.sector }}
-    <strong>{{ company.symbol }}:</strong>
-    {{ company.latest_price }}<br/>
-    <a href="{{ company.google_url }}">Google Finance</a>
+    <style type="text/css">
+        .company-header {
+            padding: 50px 20px 20px 20px;
+            overflow: hidden;
+            background-color: #EEE;
+        }
+        .company-header .left-col {
+            float: left;
+            margin-right: 30px;
+        }
+        .company-header .right-col {
+            float: left;
+            margin-right: 30px;
+        }
+        .company-header .mid-col {
+            float: left;
+
+            margin-right: 30px;
+        }
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .company-symbol {
+            font-size: 12px;
+            color: #999;
+            font-weight: normal;
+        }
+        .company-location {
+            font-size: 11px;
+        }
+        .company-sector {
+            font-size: 11px;
+        }
+        .company-price {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .company-date {
+            
+        }
+        .company-date .company-movers:link,
+        .company-date .company-movers:visited {
+            text-decoration: none;
+            color: #999;
+        }
+    </style>
+
+
     <div id="stock-chart"></div>
     <div id="tweet-chart"></div>
 
@@ -36,7 +90,7 @@
 
 
     $.ajax({ 
-        url: 'http://otter.topsy.com/searchhistogram.js?q=${{ company.symbol }}&period=30&callback=?',
+        url: 'http://otter.topsy.com/searchhistogram.js?q=${{ company.symbol }}&period=90&callback=?',
         dataType: 'json',
         success: function(data) {
             var cat_map = {};
@@ -61,7 +115,10 @@
                     marginBottom: 25
                 },
                 xAxis: {
-                    categories: categories
+                    categories: categories,
+                    labels: {
+                        step: 7
+                    }
                 },
                 yAxis: {
                     title: { text: 'Mentions' },
