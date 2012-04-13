@@ -33,7 +33,7 @@
     </tr>
     {% for i in transactions %}
         <tr class="{% cycle 'odd' 'even' %}">
-            <td>{{ i.date|date:"Y-m-d" }}</td>
+            <td><a href="{% url company-movers i.date.year, i.date.month, i.date.day %}">{{ i.date|date:"Y-m-d" }}</a></td>
             <td>{{ i.category }}</td>
             <td><a href="{% url company-details i.company.symbol %}">{{ i.company.symbol }}</a></td>
             <td>{{ i.company.name }}</td>

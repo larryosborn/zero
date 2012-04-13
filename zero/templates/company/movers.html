@@ -3,6 +3,11 @@
 {% block head %}{% endblock head %}
 {% block content %}
 <h1 class="section-title">{{ date }}</h1>
+<ul class="date-list">
+    {% for i in dates %}
+        <li class="{% if i == date %}on{% endif %}{% if i != date %}off{% endif %}"><a href="{% url company-movers i.year, i.month, i.day %}">{{ i|date:"Y-m-d" }}</a></li>
+    {% endfor %}
+</ul>
 <table class="styled">
     <thead>
     <tr>

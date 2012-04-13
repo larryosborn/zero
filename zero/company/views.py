@@ -30,9 +30,15 @@ def movers(request, year, month, day):
     month = int(month)
     day = int(day)
     date = datetime.date(year, month, day)
+    dates = []
+
+    for i in range(-5,5):
+        dates.append(datetime.date(year, month, day - i))
+    dates.reverse()
+
     prices = Price.objects.filter(date=date)
     p = []
     for i in prices:
         p.append({ 'company': i.company, 'opened': i.opened, 'high': i.high, 'low': i.low, 'closed': i.closed, 'change': round(i.closed - i.opened, 2), 'change_pct': round(((i.closed - i.opened)/i.opened) * 100,2) })
-    return render_to_response('company/movers.html', { 'date': date, 'prices': p }, context_instance=RequestContext(request))
+    return render_to_response('company/movers.html', { 'date': date, 'prices': p, 'dates': dates }, context_instance=RequestContext(request))
 
