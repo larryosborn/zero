@@ -123,7 +123,7 @@
         "pk": "APD", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Allentown, Pennsylvania", 
             "name": "Air Products & Chemicals Inc", 
             "exchange": "NYSE"
@@ -133,7 +133,7 @@
         "pk": "ARG", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Radnor Township, Pennsylvania", 
             "name": "Airgas Inc", 
             "exchange": "NYSE"
@@ -153,7 +153,7 @@
         "pk": "AA", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Pittsburgh, Pennsylvania", 
             "name": "Alcoa Inc", 
             "exchange": "NYSE"
@@ -163,7 +163,7 @@
         "pk": "ATI", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Pittsburgh, Pennsylvania", 
             "name": "Allegheny Technologies Inc", 
             "exchange": "NYSE"
@@ -503,7 +503,7 @@
         "pk": "BLL", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Broomfield, Colorado", 
             "name": "Ball Corp", 
             "exchange": "NYSE"
@@ -593,7 +593,7 @@
         "pk": "BMS", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Neenah, Wisconsin", 
             "name": "Bemis Company", 
             "exchange": "NYSE"
@@ -913,7 +913,7 @@
         "pk": "CF", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Deerfield, Illinois", 
             "name": "CF Industries Holdings Inc", 
             "exchange": "NYSE"
@@ -1023,7 +1023,7 @@
         "pk": "CLF", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Cleveland, Ohio", 
             "name": "Cliffs Natural Resources", 
             "exchange": "NYSE"
@@ -1463,7 +1463,7 @@
         "pk": "DOW", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Midland, Michigan", 
             "name": "Dow Chemical", 
             "exchange": "NYSE"
@@ -1493,7 +1493,7 @@
         "pk": "DD", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Wilmington, Delaware", 
             "name": "Du Pont (E.I.)", 
             "exchange": "NYSE"
@@ -1533,7 +1533,7 @@
         "pk": "EMN", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Kingsport, Tennessee", 
             "name": "Eastman Chemical", 
             "exchange": "NYSE"
@@ -1563,7 +1563,7 @@
         "pk": "ECL", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "St. Paul, Minnesota", 
             "name": "Ecolab Inc.", 
             "exchange": "NYSE"
@@ -1883,7 +1883,7 @@
         "pk": "FMC", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Philadelphia, Pennsylvania", 
             "name": "FMC Corporation", 
             "exchange": "NYSE"
@@ -1933,7 +1933,7 @@
         "pk": "FCX", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Phoenix, Arizona", 
             "name": "Freeport-McMoran Cp & Gld", 
             "exchange": "NYSE"
@@ -2343,7 +2343,7 @@
         "pk": "IFF", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "New York, New York", 
             "name": "International Flav/Frag", 
             "exchange": "NYSE"
@@ -2363,7 +2363,7 @@
         "pk": "IP", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Memphis, Tennessee", 
             "name": "International Paper", 
             "exchange": "NYSE"
@@ -2913,7 +2913,7 @@
         "pk": "MWV", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Richmond, Virginia", 
             "name": "MeadWestvaco Corporation", 
             "exchange": "NYSE"
@@ -3013,7 +3013,7 @@
         "pk": "MON", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Creve Coeur, Missouri", 
             "name": "Monsanto Co.", 
             "exchange": "NYSE"
@@ -3043,7 +3043,7 @@
         "pk": "MOS", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Plymouth, Minnesota", 
             "name": "The Mosaic Company", 
             "exchange": "NYSE"
@@ -3153,7 +3153,7 @@
         "pk": "NEM", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Denver, Colorado", 
             "name": "Newmont Mining Corp. (Hldg. Co.)", 
             "exchange": "NYSE"
@@ -3303,7 +3303,7 @@
         "pk": "NUE", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Charlotte, North Carolina", 
             "name": "Nucor Corp.", 
             "exchange": "NYSE"
@@ -3383,7 +3383,7 @@
         "pk": "OI", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Perrysburg, Ohio", 
             "name": "Owens-Illinois Inc", 
             "exchange": "NYSE"
@@ -3613,7 +3613,7 @@
         "pk": "PPG", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Pittsburgh, Pennsylvania", 
             "name": "PPG Industries", 
             "exchange": "NYSE"
@@ -3633,7 +3633,7 @@
         "pk": "PX", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Danbury, Connecticut", 
             "name": "Praxair Inc.", 
             "exchange": "NYSE"
@@ -4003,7 +4003,7 @@
         "pk": "SEE", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Elmwood Park, New Jersey", 
             "name": "Sealed Air Corp.(New)", 
             "exchange": "NYSE"
@@ -4043,7 +4043,7 @@
         "pk": "SIAL", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "St. Louis, Missouri", 
             "name": "Sigma-Aldrich", 
             "exchange": "NASDAQ"
@@ -4433,7 +4433,7 @@
         "pk": "TIE", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Dallas, Texas", 
             "name": "Titanium Metals Corp", 
             "exchange": "NYSE"
@@ -4533,7 +4533,7 @@
         "pk": "X", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Pittsburgh, Pennsylvania", 
             "name": "United States Steel Corp.", 
             "exchange": "NYSE"
@@ -4663,7 +4663,7 @@
         "pk": "VMC", 
         "model": "company.company", 
         "fields": {
-            "sector": "Materials", 
+            "sector": "ma", 
             "location": "Birmingham, Alabama", 
             "name": "Vulcan Materials", 
             "exchange": "NYSE"

@@ -14,6 +14,7 @@
     <tr>
         <th>Symbol</th>
         <th>Name</th>
+        <th>Sector</th>
         <th>Past 30 Days</th>
         <th class="number">Price</th>
         <th class="number">High</th>
@@ -23,10 +24,8 @@
     {% for i in list %}
         <tr data-symbol="{{ i.symbol }}" class="{% cycle 'odd' 'even' %}">
             <td><a href="{% url company-details i.symbol %}">{{ i.symbol }}</a></td>
-            <td>
-                {{ i.name }}<br/>
-                {{ i.sector }}
-            </td>
+            <td>{{ i.name }}</td>
+            <td class="">{{ i.get_sector_display }}</td>
             <td class="sparkline-col"></td>
             <td class="number latest-col"></td>
             <td class="number high-col"></td>
