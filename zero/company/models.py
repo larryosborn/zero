@@ -93,3 +93,19 @@ class Price(models.Model):
     closed      = models.FloatField()
     adj_closed  = models.FloatField()
     volume      = models.IntegerField()
+
+class Index(models.Model):
+
+    name = models.CharField(max_length=32)
+
+    def __unicode__(self):
+        return self.name
+
+class IndexCompany(models.Model):
+
+    company = models.ForeignKey('Company')
+    index = models.ForeignKey('Index')
+
+    def __unicode__(self):
+        return '%s (%s)' % (self.company.name, self.index.name)
+
