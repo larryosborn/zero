@@ -10074,5 +10074,277 @@
             "index": 2,
             "company": "YHOO"
         }
+    },
+    {
+        "pk": "au",
+        "model": "company.sector",
+        "fields": {
+            "name": "Automotive",
+            "parent": "cg"
+        }
+    },
+    {
+        "pk": "ba",
+        "model": "company.sector",
+        "fields": {
+            "name": "Banking",
+            "parent": "fi"
+        }
+    },
+    {
+        "pk": "bm",
+        "model": "company.sector",
+        "fields": {
+            "name": "Basic Materials",
+            "parent": null
+        }
+    },
+    {
+        "pk": "cd",
+        "model": "company.sector",
+        "fields": {
+            "name": "Consumer Durables",
+            "parent": "cg"
+        }
+    },
+    {
+        "pk": "cg",
+        "model": "company.sector",
+        "fields": {
+            "name": "Consumer Goods",
+            "parent": null
+        }
+    },
+    {
+        "pk": "ch",
+        "model": "company.sector",
+        "fields": {
+            "name": "Chemicals",
+            "parent": "bm"
+        }
+    },
+    {
+        "pk": "cn",
+        "model": "company.sector",
+        "fields": {
+            "name": "Consumer Non-Durables",
+            "parent": "cg"
+        }
+    },
+    {
+        "pk": "co",
+        "model": "company.sector",
+        "fields": {
+            "name": "Conglomerates",
+            "parent": null
+        }
+    },
+    {
+        "pk": "cs",
+        "model": "company.sector",
+        "fields": {
+            "name": "Computer Software and Services",
+            "parent": "te"
+        }
+    },
+    {
+        "pk": "cw",
+        "model": "company.sector",
+        "fields": {
+            "name": "Computer Hardware",
+            "parent": "te"
+        }
+    },
+    {
+        "pk": "dr",
+        "model": "company.sector",
+        "fields": {
+            "name": "Drugs",
+            "parent": "hc"
+        }
+    },
+    {
+        "pk": "ds",
+        "model": "company.sector",
+        "fields": {
+            "name": "Diversified Services",
+            "parent": "sv"
+        }
+    },
+    {
+        "pk": "el",
+        "model": "company.sector",
+        "fields": {
+            "name": "Electronics",
+            "parent": "te"
+        }
+    },
+    {
+        "pk": "en",
+        "model": "company.sector",
+        "fields": {
+            "name": "Energy",
+            "parent": "bm"
+        }
+    },
+    {
+        "pk": "fb",
+        "model": "company.sector",
+        "fields": {
+            "name": "Food and Beverages",
+            "parent": "cg"
+        }
+    },
+    {
+        "pk": "fi",
+        "model": "company.sector",
+        "fields": {
+            "name": "Financial",
+            "parent": null
+        }
+    },
+    {
+        "pk": "fs",
+        "model": "company.sector",
+        "fields": {
+            "name": "Financial Services",
+            "parent": "fi"
+        }
+    },
+    {
+        "pk": "hc",
+        "model": "company.sector",
+        "fields": {
+            "name": "Health Care",
+            "parent": null
+        }
+    },
+    {
+        "pk": "hs",
+        "model": "company.sector",
+        "fields": {
+            "name": "Health Services",
+            "parent": "hc"
+        }
+    },
+    {
+        "pk": "ig",
+        "model": "company.sector",
+        "fields": {
+            "name": "Industrial Goods",
+            "parent": null
+        }
+    },
+    {
+        "pk": "is",
+        "model": "company.sector",
+        "fields": {
+            "name": "Insurance",
+            "parent": "fi"
+        }
+    },
+    {
+        "pk": "le",
+        "model": "company.sector",
+        "fields": {
+            "name": "Leisure",
+            "parent": "sv"
+        }
+    },
+    {
+        "pk": "me",
+        "model": "company.sector",
+        "fields": {
+            "name": "Media",
+            "parent": "sv"
+        }
+    },
+    {
+        "pk": "mm",
+        "model": "company.sector",
+        "fields": {
+            "name": "Metals and Mining",
+            "parent": "bm"
+        }
+    },
+    {
+        "pk": "ne",
+        "model": "company.sector",
+        "fields": {
+            "name": "Internet",
+            "parent": "te"
+        }
+    },
+    {
+        "pk": "re",
+        "model": "company.sector",
+        "fields": {
+            "name": "Retail",
+            "parent": "sv"
+        }
+    },
+    {
+        "pk": "sr",
+        "model": "company.sector",
+        "fields": {
+            "name": "Specialty Retail",
+            "parent": "sv"
+        }
+    },
+    {
+        "pk": "sv",
+        "model": "company.sector",
+        "fields": {
+            "name": "Services",
+            "parent": null
+        }
+    },
+    {
+        "pk": "te",
+        "model": "company.sector",
+        "fields": {
+            "name": "Technology",
+            "parent": null
+        }
+    },
+    {
+        "pk": "tl",
+        "model": "company.sector",
+        "fields": {
+            "name": "Telecommunications",
+            "parent": "te"
+        }
+    },
+    {
+        "pk": "to",
+        "model": "company.sector",
+        "fields": {
+            "name": "Tobacco",
+            "parent": "cg"
+        }
+    },
+    {
+        "pk": "tr",
+        "model": "company.sector",
+        "fields": {
+            "name": "Transportation",
+            "parent": "sv"
+        }
+    },
+    {
+        "pk": "ut",
+        "model": "company.sector",
+        "fields": {
+            "name": "Utilties",
+            "parent": null
+        }
+    },
+    {
+        "pk": "wh",
+        "model": "company.sector",
+        "fields": {
+            "name": "Wholesale",
+            "parent": "sv"
+        }
     }
 ]
