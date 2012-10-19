@@ -3,7 +3,7 @@
 {% block head %}{% endblock head %}
 {% block page_title %}
     <div class="index-header">
-        {{ index.name }}
+        {{ sector }}
     </div>
 {% endblock page_title %}
 {% block content %}
@@ -17,11 +17,10 @@
 <button id="go">Go</button>
 <div id="company-view"></div>
 <script type="text/javascript">
-var index = { 'name': '{{ index.name }}', 'slug': '{{ index.slug }}' };
+var sector = '{{ sector }}';
 $(document).ready(function() {
     Zero.api({ 
-        url: '/company/api/list',
-        data: { index: index.slug },
+        url: '/company/api/sector/' + sector + '?callback=?',
         callback: function(data) { 
             console.log(data); 
             var table_html = [

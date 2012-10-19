@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load number_extras %}
+{% block head %}{% endblock head %}
+{% block page_title %}
+    <div class="index-header">
+        Indexes
+    </div>
+{% endblock page_title %}
+{% block content %}
+
+{% for i in list %}
+    <a href="{% url index i.slug %}">{{ i.name }}</a><br/>
+{% endfor %}
+{% endblock content %}

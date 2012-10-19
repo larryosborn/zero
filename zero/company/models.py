@@ -2,6 +2,20 @@ from django.db import models
 import string, random
 import datetime
 from time import mktime
+from django.template.defaultfilters import slugify
+
+class Sector(models.Model):
+    id      = models.CharField(primary_key=True, max_length=8)
+    name    = models.CharField(max_length=32)
+    parent  = models.ForeignKey('self', null=True, blank=True, related_name='industries')
+
+    def __unicode__(self):
+        parent = self.parent
+        ret = self.name
+        if self.parent:
+            return '%s > %s' % (self.parent.name, self.name)
+        else:
+            return self.name
 
 class Company(models.Model):
 
@@ -97,6 +111,12 @@ class Price(models.Model):
 class Index(models.Model):
 
     name = models.CharField(max_length=32)
+    slug = models.CharField(max_length=32)
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.name)
+        super(Index, self).save(*args, **kwargs)
 
     def __unicode__(self):
         return self.name

@@ -8,13 +8,17 @@
     <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}js/highcharts/js/highcharts.src.js"></script>
     <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}js/highstock/js/highstock.src.js"></script>
     <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}js/jquery.tablesorter.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}js/d3.v2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}js/rickshaw.js"></script>
     <script type="text/javascript" charset="utf-8" src="{{ STATIC_URL }}js/zero.js"></script>
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/style.css"/>
+    <!--
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    -->
     <link rel="icon" type="image/png" href="/static/img/zero-black-icon-16.png"/>
     <link rel="shortcut icon" type="image/x-icon" href="/static/img/zero-black-icon-16.png"/>
     {% block head %}{% endblock head %}
@@ -24,7 +28,9 @@
     <ul>
         <li><a href="{% url home-view %}" class="home-view">Zero</a></li>
         <li><a href="{% url account-details %}" class="account-details">{{ user.username }}</a></li>
-        <li><a href="{% url company-list %}" class="company-list">Companies</a></li>
+        <li><a href="{% url index-list %}" class="index-list">Indexes</a></li>
+        <li><a href="{% url sector-list %}" class="sector-list">Sectors</a></li>
+        <li><a href="{% url company-movers-today %}" class="movers-today">Movers</a></li>
     </ul>
 </div>
 {% block page_title %}{% endblock page_title %}

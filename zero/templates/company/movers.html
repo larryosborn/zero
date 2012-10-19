@@ -2,23 +2,29 @@
 {% load number_extras %}
 {% block head %}{% endblock head %}
 {% block content %}
-<h1 class="section-title">{{ date }}</h1>
+<h1 class="section-title">{{ date|date:"l - M d, Y" }}</h1>
 <ul class="date-list">
     {% for i in dates %}
-        <li class="{% if i == date %}on{% endif %}{% if i != date %}off{% endif %}"><a href="{% url company-movers i.year, i.month, i.day %}">{{ i|date:"Y-m-d" }}</a></li>
+        <li class="{% if i == date %}on{% endif %}{% if i != date %}off{% endif %}">
+            {% if i.weekday == 5 or i.weekday == 6 %}
+                <span class="weekend">{{ i|date:"Y-m-d" }}</span>
+            {% else %}
+                <a href="{% url company-movers i.year, i.month, i.day %}">{{ i|date:"Y-m-d" }}</a>
+            {% endif %}
+        </li>
     {% endfor %}
 </ul>
 <table class="styled">
     <thead>
     <tr>
-        <th>Symbol</th>
-        <th>Company</th>
-        <th>Opened</th>
-        <th>High</th>
-        <th>Low</th>
-        <th>Closed</th>
-        <th>Change</th>
-        <th>Change Pct</th>
+        <th>Symbol <span class="sorter"></span></th>
+        <th>Company <span class="sorter"></span></th>
+        <th>Opened <span class="sorter"></span></th>
+        <th>High <span class="sorter"></span></th>
+        <th>Low <span class="sorter"></span></th>
+        <th>Closed <span class="sorter"></span></th>
+        <th>Change <span class="sorter"></span></th>
+        <th>Change Pct <span class="sorter"></span></th>
     </tr>
     </thead>
     <tbody>
@@ -36,6 +42,8 @@
     {% endfor %}
     </tbody>
 </table>
+{{date}}
+{{prices}}
 <script type="text/javascript">
 $(document).ready(function() {
     $(".styled").tablesorter();
