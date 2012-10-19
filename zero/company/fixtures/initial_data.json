@@ -5000,6 +5000,266 @@
         }
     },
     {
+        "pk": "ATVI",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Activision Blizzard",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "ALXN",
+        "model": "company.company",
+        "fields": {
+            "sector": "hc",
+            "location": "Pittsburgh, Pennsylvania",
+            "name": "Alexion Pharmaceuticals Inc",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "AVGO",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Avago Technologies",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "BIDU",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Baidu, Inc.",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "CHKP",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Check Point Software",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "CTRP",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Ctrip.com International Ltd",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "FLEX",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Flextronics International Ltd",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "FOSL",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Fossil, Inc.",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "GRMN",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Garmin Ltd",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "GMCR",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Green Mountain Coffee Roasters, Inc.",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "HSIC",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Henry Schein, Inc.",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "INFY",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Infosys Ltd",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "LRCX",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "LAM Research Corporation",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "LINTA",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Liberty Interactive Corporation",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "MRVL",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Marvell Tech Group",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "MXIM",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Maxim Integrated",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "MNST",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Monster Beverage Corporation",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "NUAN",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Nuance Communications",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "GOLD",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Randgold Resources Ltd",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "RIMM",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Research In Motion",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "STX",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Seagate Technology",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "SIRI",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Sirius XM Radio Inc.",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "VRTX",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Vertex Pharmaceuticals",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "VMED",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Virgin Media Inc",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "VOD",
+        "model": "company.company",
+        "fields": {
+            "sector": "",
+            "location": "",
+            "name": "Vodafone Group PLC",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
+        "pk": "WCRX",
+        "model": "company.company",
+        "fields": {
+            "sector": "hc",
+            "location": "Dublin,  Ireland",
+            "name": "Warner Chilcott PLC",
+            "exchange": "NASDAQ"
+        }
+    },
+    {
         "pk": 1,
         "model": "company.index",
         "fields": {
