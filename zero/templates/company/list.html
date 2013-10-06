@@ -2,19 +2,25 @@
 {% load number_extras %}
 {% block head %}{% endblock head %}
 {% block page_title %}
-    <div class="index-header">
-        {{ index.name }}
+    <div class="hero-unit">
+        <h2>{{ index.name }}</h2>
     </div>
 {% endblock page_title %}
 {% block content %}
-<select id="days">
-    <option value="7">7 Days</option>
-    <option value="14">14 Days</option>
-    <option value="30" selected="selected">30 Days</option>
-    <option value="60">60 Days</option>
-    <option value="90">90 Days</option>
-</select>
-<button id="go">Go</button>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-form">
+            <select id="days">
+                <option value="7">7 Days</option>
+                <option value="14">14 Days</option>
+                <option value="30" selected="selected">30 Days</option>
+                <option value="60">60 Days</option>
+                <option value="90">90 Days</option>
+            </select>
+            <button class="btn" id="go">Go</button>
+        </div>
+    </div>
+</div>
 <div id="company-view"></div>
 <script type="text/javascript">
 var index = { 'name': '{{ index.name }}', 'slug': '{{ index.slug }}' };
@@ -25,7 +31,7 @@ $(document).ready(function() {
         callback: function(data) { 
             console.log(data); 
             var table_html = [
-                '<table class="styled" id="company-list">',
+                '<table class="table table-striped" id="company-list">',
                     '<thead>',
                     '<tr>',
                         '<th><span class="sorter"></span>Symbol</th>',

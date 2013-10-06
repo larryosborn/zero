@@ -1,20 +1,28 @@
 {% extends "base.html" %}
 {% load number_extras %}
 {% block head %}{% endblock head %}
+{% block page_title %}
+    <div class="hero-unit">
+        <h2>{{ date|date:"l - M d, Y" }}</h2>
+    </div>
+{% endblock page_title %}
 {% block content %}
-<h1 class="section-title">{{ date|date:"l - M d, Y" }}</h1>
-<ul class="date-list">
-    {% for i in dates %}
-        <li class="{% if i == date %}on{% endif %}{% if i != date %}off{% endif %}">
-            {% if i.weekday == 5 or i.weekday == 6 %}
-                <span class="weekend">{{ i|date:"Y-m-d" }}</span>
-            {% else %}
-                <a href="{% url company-movers i.year, i.month, i.day %}">{{ i|date:"Y-m-d" }}</a>
-            {% endif %}
-        </li>
-    {% endfor %}
-</ul>
-<table class="styled">
+<div class="navbar">
+    <div class="navbar-inner">
+        <ul class="nav date-list">
+            {% for i in dates %}
+                <li class="{% if i == date %}on{% endif %}{% if i != date %}off{% endif %}">
+                    {% if i.weekday == 5 or i.weekday == 6 %}
+                        <span class="weekend">{{ i|date:"Y-m-d" }}</span>
+                    {% else %}
+                        <a href="{% url 'company-movers' i.year i.month i.day %}">{{ i|date:"Y-m-d" }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<table class="table table-striped">
     <thead>
     <tr>
         <th>Symbol <span class="sorter"></span></th>
@@ -30,7 +38,7 @@
     <tbody>
     {% for i in prices %}
         <tr class="{% cycle 'odd' 'even' %}">
-            <td><a href="{% url company-details i.company.symbol %}">{{ i.company.symbol }}</a></td>
+            <td><a href="{% url 'company-details' i.company.symbol %}">{{ i.company.symbol }}</a></td>
             <td>{{ i.company.name }}</td>
             <td class="number">${{ i.opened }}</td>
             <td class="number">${{ i.high }}</td>

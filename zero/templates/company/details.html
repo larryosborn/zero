@@ -1,17 +1,19 @@
 {% extends "base.html" %}
 {% block page_title %}
-    <div class="company-header">
-        <div class="left-col">
-            <div class="company-price">${{ company.latest_price.closed }}</div>
-            <div class="company-date"><a href="{% url company-movers company.latest_price.date.year, company.latest_price.date.month, company.latest_price.date.day %}" class="company-movers">{{ company.latest_price.date|date:"Y-m-d" }}</a></div>
-        </div>
-        <div class="mid-col">
-            <div class="company-name">{{ company.name }}</div>
-            <div class="company-symbol"><a href="{{ company.google_url }}">{{ company.exchange }}:{{ company.symbol }}</a></div>
-        </div>
-        <div class="right-col">
-            <div class="company-location">{{ company.location }}</div>
-            <div class="company-sector">{{ company.get_sector_display }}</div>
+    <div class="hero-unit">
+        <div class="row">
+            <div class="span3">
+                <div class="company-price">${{ company.latest_price.closed }}</div>
+                <div class="company-date"><a href="{% url 'company-movers' company.latest_price.date.year company.latest_price.date.month company.latest_price.date.day %}" class="company-movers">{{ company.latest_price.date|date:"Y-m-d" }}</a></div>
+            </div>
+            <div class="span3">
+                <div class="company-name">{{ company.name }}</div>
+                <div class="company-symbol"><a href="{{ company.google_url }}">{{ company.exchange }}:{{ company.symbol }}</a></div>
+            </div>
+            <div class="span3">
+                <div class="company-location">{{ company.location }}</div>
+                <div class="company-sector">{{ company.get_sector_display }}</div>
+            </div>
         </div>
     </div>
 {% endblock page_title %}

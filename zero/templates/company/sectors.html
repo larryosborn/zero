@@ -2,13 +2,13 @@
 {% load number_extras %}
 {% block head %}{% endblock head %}
 {% block page_title %}
-    <div class="index-header">
-        Sectors
+    <div class="hero-unit">
+        <h2>Sectors</h2>
     </div>
 {% endblock page_title %}
 {% block content %}
 
 {% for i in list %}
-    <a href="{% url sector i.0 %}">{{ i.1 }}</a><br/>
+    <a href="{% url 'sector' i.0 %}">{{ i.1 }}</a><br/>
 {% endfor %}
 {% endblock content %}

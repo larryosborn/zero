@@ -1,6 +1,8 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.db.utils import IntegrityError
 from optparse import make_option
+from time import sleep
+from random import uniform
 import json
 import sys
 import datetime
@@ -31,14 +33,18 @@ class Command(BaseCommand):
             companies = Company.objects.filter(symbol=symbol)
 
         for company in companies:
+            sec = uniform(1,3)
             if verbosity >= 2:
+                self.stdout.write('** sleep %s seconds **\n' % sec)
                 self.stdout.write('Symbol: %s\n' % company.symbol)
+            sleep(sec)
             #url = "http://ichart.finance.yahoo.com/table.csv?s=%s&d=2&e=28&f=2014&g=d&a=0&b=2&c=1962&ignore=.csv" % company.symbol
             url = "http://ichart.finance.yahoo.com/table.csv?s=%s&d=2&e=28&f=2014&g=d&a=0&b=2&c=2012&ignore=.csv" % company.symbol
             if verbosity >= 2:
                 self.stdout.write('Fetching: %s\n' % url)
             try:
                 req = urllib2.Request(url=url)
+                req.addheaders = [('User-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36')]
                 f = urllib2.urlopen(req)
             except:
                 if verbosity >= 2:
